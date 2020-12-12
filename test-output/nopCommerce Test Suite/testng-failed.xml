@@ -16,6 +16,15 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct -->
+      <class name="org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest -->
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestAddProduct">
         <methods>
           <include name="afterMethod"/>
