@@ -34,8 +34,6 @@ public class TestAddProduct extends TestBase{
 	  
 	  addProduct.chooseCategory("Electronics");
 	  
-	  //addProduct.checkPublished();
-	  
 	  addProduct.productTags("#Laptop");
 	  
 	  logger.info("save and update price");
