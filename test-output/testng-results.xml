@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+<testng-results skipped="2" failed="4" ignored="0" total="11" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="nopCommerce Test Suite" duration-ms="190589" started-at="2020-12-12T17:12:04 IST" finished-at="2020-12-12T17:15:15 IST">
+  <suite name="nopCommerce Test Suite" duration-ms="287831" started-at="2020-12-12T17:33:47 IST" finished-at="2020-12-12T17:38:35 IST">
     <groups>
     </groups>
-    <test name="Login Tests" duration-ms="36213" started-at="2020-12-12T17:12:04 IST" finished-at="2020-12-12T17:12:40 IST">
+    <test name="Login Tests" duration-ms="35701" started-at="2020-12-12T17:33:47 IST" finished-at="2020-12-12T17:34:23 IST">
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestLogin">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="setup" is-config="true" duration-ms="6799" started-at="2020-12-12T17:12:04 IST" finished-at="2020-12-12T17:12:11 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="setup" is-config="true" duration-ms="6511" started-at="2020-12-12T17:33:47 IST" finished-at="2020-12-12T17:33:54 IST">
           <params>
             <param index="0">
               <value>
@@ -18,25 +18,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="beforeMethod" is-config="true" duration-ms="4701" started-at="2020-12-12T17:12:11 IST" finished-at="2020-12-12T17:12:16 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="beforeMethod" is-config="true" duration-ms="4471" started-at="2020-12-12T17:33:54 IST" finished-at="2020-12-12T17:33:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_login()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="test_login" duration-ms="7" started-at="2020-12-12T17:12:16 IST" finished-at="2020-12-12T17:12:16 IST">
+        <test-method status="PASS" signature="test_login()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="test_login" duration-ms="7" started-at="2020-12-12T17:33:58 IST" finished-at="2020-12-12T17:33:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_login -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-12T17:12:16 IST" finished-at="2020-12-12T17:12:16 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-12T17:33:58 IST" finished-at="2020-12-12T17:33:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="tearDown" is-config="true" duration-ms="5571" started-at="2020-12-12T17:12:16 IST" finished-at="2020-12-12T17:12:21 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="tearDown" is-config="true" duration-ms="5538" started-at="2020-12-12T17:33:58 IST" finished-at="2020-12-12T17:34:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestLogin -->
       <class name="org.apache.maven.archetypes.nopcommerceApp.DDTestLogin">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="setup" is-config="true" duration-ms="6137" started-at="2020-12-12T17:12:21 IST" finished-at="2020-12-12T17:12:27 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="setup" is-config="true" duration-ms="5787" started-at="2020-12-12T17:34:04 IST" finished-at="2020-12-12T17:34:10 IST">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ddt_test_login(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="ddt_test_login" duration-ms="5725" started-at="2020-12-12T17:12:27 IST" data-provider="dp" finished-at="2020-12-12T17:12:33 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-12-12T17:34:10 IST" finished-at="2020-12-12T17:34:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ddt_test_login(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="ddt_test_login" duration-ms="6076" started-at="2020-12-12T17:34:10 IST" data-provider="dp" finished-at="2020-12-12T17:34:16 IST">
           <params>
             <param index="0">
               <value>
@@ -58,19 +62,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ddt_test_login -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-12-12T17:12:27 IST" finished-at="2020-12-12T17:12:27 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-12-12T17:12:33 IST" finished-at="2020-12-12T17:12:33 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-12T17:12:33 IST" finished-at="2020-12-12T17:12:33 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-12T17:34:16 IST" finished-at="2020-12-12T17:34:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="ddt_test_login(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="ddt_test_login" duration-ms="511" started-at="2020-12-12T17:12:33 IST" data-provider="dp" finished-at="2020-12-12T17:12:34 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-12-12T17:34:16 IST" finished-at="2020-12-12T17:34:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ddt_test_login(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="ddt_test_login" duration-ms="525" started-at="2020-12-12T17:34:16 IST" data-provider="dp" finished-at="2020-12-12T17:34:16 IST">
           <params>
             <param index="0">
               <value>
@@ -81,15 +81,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ddt_test_login -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-12-12T17:12:34 IST" finished-at="2020-12-12T17:12:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-12T17:12:34 IST" finished-at="2020-12-12T17:12:34 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-12T17:34:16 IST" finished-at="2020-12-12T17:34:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="ddt_test_login(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="ddt_test_login" duration-ms="514" started-at="2020-12-12T17:12:34 IST" data-provider="dp" finished-at="2020-12-12T17:12:34 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-12-12T17:34:16 IST" finished-at="2020-12-12T17:34:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ddt_test_login(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="ddt_test_login" duration-ms="540" started-at="2020-12-12T17:34:16 IST" data-provider="dp" finished-at="2020-12-12T17:34:17 IST">
           <params>
             <param index="0">
               <value>
@@ -100,11 +100,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ddt_test_login -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-12T17:12:34 IST" finished-at="2020-12-12T17:12:34 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-12T17:34:17 IST" finished-at="2020-12-12T17:34:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="ddt_test_login(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="ddt_test_login" duration-ms="485" started-at="2020-12-12T17:12:34 IST" data-provider="dp" finished-at="2020-12-12T17:12:35 IST">
+        <test-method status="PASS" signature="ddt_test_login(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="ddt_test_login" duration-ms="496" started-at="2020-12-12T17:34:17 IST" data-provider="dp" finished-at="2020-12-12T17:34:17 IST">
           <params>
             <param index="0">
               <value>
@@ -115,23 +115,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ddt_test_login -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-12-12T17:12:34 IST" finished-at="2020-12-12T17:12:34 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-12-12T17:34:17 IST" finished-at="2020-12-12T17:34:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-12T17:12:35 IST" finished-at="2020-12-12T17:12:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="tearDown" is-config="true" duration-ms="5561" started-at="2020-12-12T17:12:35 IST" finished-at="2020-12-12T17:12:40 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="tearDown" is-config="true" duration-ms="5546" started-at="2020-12-12T17:34:17 IST" finished-at="2020-12-12T17:34:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-12T17:34:17 IST" finished-at="2020-12-12T17:34:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.DDTestLogin -->
     </test> <!-- Login Tests -->
-    <test name="Products Tests" duration-ms="154204" started-at="2020-12-12T17:12:40 IST" finished-at="2020-12-12T17:15:15 IST">
+    <test name="Products Tests" duration-ms="251954" started-at="2020-12-12T17:34:23 IST" finished-at="2020-12-12T17:38:35 IST">
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="setup" is-config="true" duration-ms="6595" started-at="2020-12-12T17:13:46 IST" finished-at="2020-12-12T17:13:53 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="setup" is-config="true" duration-ms="8068" started-at="2020-12-12T17:36:52 IST" finished-at="2020-12-12T17:37:00 IST">
           <params>
             <param index="0">
               <value>
@@ -142,25 +142,76 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="beforeMethod" is-config="true" duration-ms="2142" started-at="2020-12-12T17:13:53 IST" finished-at="2020-12-12T17:13:55 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="beforeMethod" is-config="true" duration-ms="4017" started-at="2020-12-12T17:37:00 IST" finished-at="2020-12-12T17:37:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_ifTheSearchedProductUpdatedAfterEditing()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="test_ifTheSearchedProductUpdatedAfterEditing" duration-ms="5733" started-at="2020-12-12T17:13:55 IST" finished-at="2020-12-12T17:14:01 IST">
+        <test-method status="FAIL" signature="test_ifTheSearchedProductUpdatedAfterEditing()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="test_ifTheSearchedProductUpdatedAfterEditing" duration-ms="15575" started-at="2020-12-12T17:37:05 IST" finished-at="2020-12-12T17:37:20 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (4d278b61068a31cdc5eff38ad6787492)] -> xpath: //span[@class='menu-item-title'][text()='Products']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51996}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4d278b61068a31cdc5eff38ad6787492]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (4d278b61068a31cdc5eff38ad6787492)] -> xpath: //span[@class='menu-item-title'][text()='Products']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51996}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4d278b61068a31cdc5eff38ad6787492
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pageObjects.SearchProduct.clickLnkProducts(SearchProduct.java:107)
+at org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct.test_ifTheSearchedProductUpdatedAfterEditing(TestEditSearchedProduct.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_ifTheSearchedProductUpdatedAfterEditing -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-12T17:14:01 IST" finished-at="2020-12-12T17:14:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="tearDown" is-config="true" duration-ms="5626" started-at="2020-12-12T17:14:01 IST" finished-at="2020-12-12T17:14:06 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="tearDown" is-config="true" duration-ms="5629" started-at="2020-12-12T17:37:20 IST" finished-at="2020-12-12T17:37:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-12T17:37:20 IST" finished-at="2020-12-12T17:37:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct -->
       <class name="org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="setup" is-config="true" duration-ms="8574" started-at="2020-12-12T17:14:27 IST" finished-at="2020-12-12T17:14:36 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="setup" is-config="true" duration-ms="8078" started-at="2020-12-12T17:38:00 IST" finished-at="2020-12-12T17:38:09 IST">
           <params>
             <param index="0">
               <value>
@@ -171,25 +222,76 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="beforeMethod" is-config="true" duration-ms="4138" started-at="2020-12-12T17:14:36 IST" finished-at="2020-12-12T17:14:40 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="beforeMethod" is-config="true" duration-ms="5230" started-at="2020-12-12T17:38:09 IST" finished-at="2020-12-12T17:38:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton" duration-ms="28797" started-at="2020-12-12T17:14:40 IST" finished-at="2020-12-12T17:15:09 IST">
+        <test-method status="FAIL" signature="test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton" duration-ms="15604" started-at="2020-12-12T17:38:14 IST" finished-at="2020-12-12T17:38:29 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1256fca7aa89ba083ce8b14e708e8092)] -> xpath: //span[@class='menu-item-title'][text()='Products']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1256fca7aa89ba083ce8b14e708e8092]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (1256fca7aa89ba083ce8b14e708e8092)] -> xpath: //span[@class='menu-item-title'][text()='Products']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1256fca7aa89ba083ce8b14e708e8092
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pageObjects.SearchProduct.clickLnkProducts(SearchProduct.java:107)
+at org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest.test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton(ClearAllProductsTest.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-12T17:15:09 IST" finished-at="2020-12-12T17:15:09 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-12T17:38:29 IST" finished-at="2020-12-12T17:38:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="tearDown" is-config="true" duration-ms="5634" started-at="2020-12-12T17:15:09 IST" finished-at="2020-12-12T17:15:15 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="tearDown" is-config="true" duration-ms="5614" started-at="2020-12-12T17:38:29 IST" finished-at="2020-12-12T17:38:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest -->
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="setup" is-config="true" duration-ms="8386" started-at="2020-12-12T17:13:06 IST" finished-at="2020-12-12T17:13:15 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="setup" is-config="true" duration-ms="6783" started-at="2020-12-12T17:34:50 IST" finished-at="2020-12-12T17:34:56 IST">
           <params>
             <param index="0">
               <value>
@@ -200,25 +302,88 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="beforeMethod" is-config="true" duration-ms="5234" started-at="2020-12-12T17:13:15 IST" finished-at="2020-12-12T17:13:20 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="beforeMethod" is-config="true" duration-ms="4625" started-at="2020-12-12T17:34:56 IST" finished-at="2020-12-12T17:35:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_searchByProductName()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="test_searchByProductName" duration-ms="623" started-at="2020-12-12T17:13:20 IST" finished-at="2020-12-12T17:13:21 IST">
+        <test-method status="FAIL" signature="test_searchByProductName()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="test_searchByProductName" duration-ms="75689" started-at="2020-12-12T17:35:01 IST" finished-at="2020-12-12T17:36:17 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51919}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4fa640eec810902d1321de23d462d47d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51919}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4fa640eec810902d1321de23d462d47d
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at org.apache.maven.archetypes.nopcommerceApp.TestBase.captureScreen(TestBase.java:78)
+at org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName.test_searchByProductName(TestSearchProductByName.java:38)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_searchByProductName -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-12T17:13:21 IST" finished-at="2020-12-12T17:13:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="tearDown" is-config="true" duration-ms="5614" started-at="2020-12-12T17:13:21 IST" finished-at="2020-12-12T17:13:26 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="tearDown" is-config="true" duration-ms="5619" started-at="2020-12-12T17:36:17 IST" finished-at="2020-12-12T17:36:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-12T17:36:17 IST" finished-at="2020-12-12T17:36:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName -->
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="setup" is-config="true" duration-ms="8468" started-at="2020-12-12T17:14:06 IST" finished-at="2020-12-12T17:14:15 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="setup" is-config="true" duration-ms="9027" started-at="2020-12-12T17:37:26 IST" finished-at="2020-12-12T17:37:35 IST">
           <params>
             <param index="0">
               <value>
@@ -229,25 +394,76 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="beforeMethod" is-config="true" duration-ms="2908" started-at="2020-12-12T17:14:15 IST" finished-at="2020-12-12T17:14:18 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="beforeMethod" is-config="true" duration-ms="4668" started-at="2020-12-12T17:37:35 IST" finished-at="2020-12-12T17:37:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_IfSearchedProductWasDeletedAfterPressingDeleteButton()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="test_IfSearchedProductWasDeletedAfterPressingDeleteButton" duration-ms="4151" started-at="2020-12-12T17:14:18 IST" finished-at="2020-12-12T17:14:22 IST">
+        <test-method status="FAIL" signature="test_IfSearchedProductWasDeletedAfterPressingDeleteButton()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="test_IfSearchedProductWasDeletedAfterPressingDeleteButton" duration-ms="15469" started-at="2020-12-12T17:37:39 IST" finished-at="2020-12-12T17:37:55 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (beeba0c540dbcc190689eed2eb2bf454)] -> xpath: //span[@class='menu-item-title'][text()='Products']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: beeba0c540dbcc190689eed2eb2bf454]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (beeba0c540dbcc190689eed2eb2bf454)] -> xpath: //span[@class='menu-item-title'][text()='Products']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: beeba0c540dbcc190689eed2eb2bf454
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pageObjects.SearchProduct.clickLnkProducts(SearchProduct.java:107)
+at org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct.test_IfSearchedProductWasDeletedAfterPressingDeleteButton(TestDeleteSearchedProduct.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_IfSearchedProductWasDeletedAfterPressingDeleteButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-12T17:14:22 IST" finished-at="2020-12-12T17:14:22 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-12T17:37:55 IST" finished-at="2020-12-12T17:37:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="tearDown" is-config="true" duration-ms="5615" started-at="2020-12-12T17:14:22 IST" finished-at="2020-12-12T17:14:27 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="tearDown" is-config="true" duration-ms="5612" started-at="2020-12-12T17:37:55 IST" finished-at="2020-12-12T17:38:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct -->
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestAddProduct">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="setup" is-config="true" duration-ms="8310" started-at="2020-12-12T17:12:40 IST" finished-at="2020-12-12T17:12:49 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="setup" is-config="true" duration-ms="7387" started-at="2020-12-12T17:34:23 IST" finished-at="2020-12-12T17:34:30 IST">
           <params>
             <param index="0">
               <value>
@@ -258,25 +474,135 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="beforeMethod" is-config="true" duration-ms="6142" started-at="2020-12-12T17:12:49 IST" finished-at="2020-12-12T17:12:55 IST">
+        <test-method status="FAIL" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="beforeMethod" is-config="true" duration-ms="19063" started-at="2020-12-12T17:34:30 IST" finished-at="2020-12-12T17:34:50 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (158bb8a968c8be0c9fe416bd4ed37f56)] -> xpath: //span[@class='menu-item-title'][text()='Products']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 158bb8a968c8be0c9fe416bd4ed37f56]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (158bb8a968c8be0c9fe416bd4ed37f56)] -> xpath: //span[@class='menu-item-title'][text()='Products']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 158bb8a968c8be0c9fe416bd4ed37f56
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pageObjects.AddProduct.clickLnkProducts(AddProduct.java:130)
+at org.apache.maven.archetypes.nopcommerceApp.TestAddProduct.beforeMethod(TestAddProduct.java:118)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_AddProduct()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="test_AddProduct" duration-ms="5948" started-at="2020-12-12T17:12:55 IST" finished-at="2020-12-12T17:13:01 IST">
+        <test-method status="SKIP" signature="test_AddProduct()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="test_AddProduct" duration-ms="0" started-at="2020-12-12T17:34:50 IST" finished-at="2020-12-12T17:34:50 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (158bb8a968c8be0c9fe416bd4ed37f56)] -> xpath: //span[@class='menu-item-title'][text()='Products']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 158bb8a968c8be0c9fe416bd4ed37f56]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (158bb8a968c8be0c9fe416bd4ed37f56)] -> xpath: //span[@class='menu-item-title'][text()='Products']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 158bb8a968c8be0c9fe416bd4ed37f56
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pageObjects.AddProduct.clickLnkProducts(AddProduct.java:130)
+at org.apache.maven.archetypes.nopcommerceApp.TestAddProduct.beforeMethod(TestAddProduct.java:118)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_AddProduct -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-12T17:13:01 IST" finished-at="2020-12-12T17:13:01 IST">
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="afterMethod" is-config="true" duration-ms="-1607787290032" started-at="2020-12-12T17:34:50 IST" finished-at="1970-01-01T02:00:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="tearDown" is-config="true" duration-ms="5643" started-at="2020-12-12T17:13:01 IST" finished-at="2020-12-12T17:13:06 IST">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="tearDown" is-config="true" duration-ms="-1607787290033" started-at="2020-12-12T17:34:50 IST" finished-at="1970-01-01T02:00:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestAddProduct -->
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="setup" is-config="true" duration-ms="8504" started-at="2020-12-12T17:13:26 IST" finished-at="2020-12-12T17:13:35 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="setup" is-config="true" duration-ms="10735" started-at="2020-12-12T17:36:22 IST" finished-at="2020-12-12T17:36:33 IST">
           <params>
             <param index="0">
               <value>
@@ -287,19 +613,117 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="beforeClass" is-config="true" duration-ms="5205" started-at="2020-12-12T17:13:35 IST" finished-at="2020-12-12T17:13:40 IST">
+        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="beforeClass" is-config="true" duration-ms="19429" started-at="2020-12-12T17:36:33 IST" finished-at="2020-12-12T17:36:52 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (adffcda62787b71ef986ef98a5379c72)] -> xpath: //span[@class='menu-item-title'][text()='Products']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: adffcda62787b71ef986ef98a5379c72]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (adffcda62787b71ef986ef98a5379c72)] -> xpath: //span[@class='menu-item-title'][text()='Products']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: adffcda62787b71ef986ef98a5379c72
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pageObjects.SearchProduct.clickLnkProducts(SearchProduct.java:107)
+at org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType.beforeClass(TestSearchProductByType.java:63)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test_searchProductByType()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="test_searchProductByType" duration-ms="572" started-at="2020-12-12T17:13:40 IST" finished-at="2020-12-12T17:13:41 IST">
+        <test-method status="SKIP" signature="test_searchProductByType()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="test_searchProductByType" duration-ms="0" started-at="2020-12-12T17:36:52 IST" finished-at="2020-12-12T17:36:52 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (adffcda62787b71ef986ef98a5379c72)] -> xpath: //span[@class='menu-item-title'][text()='Products']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: adffcda62787b71ef986ef98a5379c72]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (adffcda62787b71ef986ef98a5379c72)] -> xpath: //span[@class='menu-item-title'][text()='Products']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: adffcda62787b71ef986ef98a5379c72
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pageObjects.SearchProduct.clickLnkProducts(SearchProduct.java:107)
+at org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType.beforeClass(TestSearchProductByType.java:63)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_searchProductByType -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-12T17:13:41 IST" finished-at="2020-12-12T17:13:41 IST">
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="afterMethod" is-config="true" duration-ms="-1607787412920" started-at="2020-12-12T17:36:52 IST" finished-at="1970-01-01T02:00:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="tearDown" is-config="true" duration-ms="5630" started-at="2020-12-12T17:13:41 IST" finished-at="2020-12-12T17:13:46 IST">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="tearDown" is-config="true" duration-ms="-1607787412921" started-at="2020-12-12T17:36:52 IST" finished-at="1970-01-01T02:00:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
