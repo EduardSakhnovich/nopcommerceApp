@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 196.643 s - in TestSuite
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 213.745 s <<< FAILURE! - in TestSuite
+test_addManufacturer(org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer)  Time elapsed: 3.351 s  <<< FAILURE!
+org.openqa.selenium.JavascriptException: 
+javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RIIBP', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2476ed643911c2f5c719595a135d7f07
+	at org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer.test_addManufacturer(TestAddManufacturer.java:33)
+

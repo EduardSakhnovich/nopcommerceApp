@@ -9,9 +9,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.openqa.selenium.By;
-
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 public class TestAddProduct extends TestBase{
@@ -43,9 +44,10 @@ public class TestAddProduct extends TestBase{
 	  
 	  logger.info("validation before price update started.........");
 	  
-	  String expMsg = "The new product has been added successfully.";
+	  String expMsg =  "The new product has been added successfully.";
 	  String actMsg = driver.findElement(By.xpath("//body/div[3]/div[3]/div[1]")).getText();
-	  System.out.println(actMsg);
+	 
+	  System.out.println(actMsg.equals(expMsg));
 	  
 	  if(actMsg.contains(expMsg))
 	  {
@@ -65,6 +67,8 @@ public class TestAddProduct extends TestBase{
 		  Assert.assertTrue(false,"Texts are not equal");
 		
 	  }
+	  
+	 
 	  
 	  logger.info("After product added update price");
 	  
