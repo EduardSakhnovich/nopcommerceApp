@@ -5,4 +5,5 @@ Used for automation testing of the demo-website: https://admin-demo.nopcommerce.
 Supports Firefox, Internet Explorer and Google Chrome browsers.
 You can clone it into your IDE and run as a test suite.
 To run the builds use the run.bat file and Jenkins.
+(In a batch file change the path to the project to your own)
 To run build in Jenkins use the batch run.bat as well, and also the git URL of this repository.
