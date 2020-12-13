@@ -30,7 +30,8 @@
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType"/>
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct"/>    
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct"/>
-      <class name="org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest"/>  
+      <class name="org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest"/>
+      <class name="org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer"/>    
     </classes>
   </test> 
   

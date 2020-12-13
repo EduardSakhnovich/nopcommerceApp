@@ -5,6 +5,7 @@ org\apache\maven\archetypes\nopcommerceApp\TestSearchProductByName.class
 org\apache\maven\archetypes\nopcommerceApp\TestAddProduct.class
 utilities\ReadConfig.class
 org\apache\maven\archetypes\nopcommerceApp\ClearAllProductsTest.class
+org\apache\maven\archetypes\nopcommerceApp\TestAddManufacturer.class
 pageObjects\LoginPage.class
 pageObjects\BasePage.class
 org\apache\maven\archetypes\nopcommerceApp\TestBase.class
