@@ -13,6 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.opera.OperaOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -25,6 +26,7 @@ public class TestBase {
 	public String username;
 	public String password;
 	public ReadConfig readConfig;
+	public OperaOptions operaOptions;
 	
 	
 	public static Logger logger;
@@ -60,6 +62,8 @@ public class TestBase {
 		}
 		else if(browser.equals("opera"))
 		{
+			operaOptions = new OperaOptions();
+			operaOptions.setBinary("C:\\Users\\edisa\\AppData\\Local\\Programs\\Opera\\73.0.3856.264\\opera.exe");
 			System.setProperty("webdriver.opera.driver", readConfig.getOperaPath());
 			driver = new OperaDriver();
 		}

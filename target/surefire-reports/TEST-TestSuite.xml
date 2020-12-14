@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="185.476" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="203.205" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\edisa\AppData\Local\Temp\surefire6545828285475014629\surefirebooter4029779380935128286.jar C:\Users\edisa\AppData\Local\Temp\surefire6545828285475014629 2020-12-14T10-31-17_378-jvmRun1 surefire7062304457514646427tmp surefire_02309954510039178655tmp"/>
+    <property name="sun.java.command" value="C:\Users\edisa\AppData\Local\Temp\surefire5097657798444530479\surefirebooter8409151888153005459.jar C:\Users\edisa\AppData\Local\Temp\surefire5097657798444530479 2020-12-14T12-39-09_650-jvmRun1 surefire1873449760089632154tmp surefire_06587139821142658458tmp"/>
     <property name="surefire.test.class.path" value="D:\Programming Languages\Java\nopcommerceApp\target\test-classes;D:\Programming Languages\Java\nopcommerceApp\target\classes;C:\Users\edisa\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\edisa\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\edisa\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\edisa\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\edisa\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\edisa\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\edisa\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\edisa\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\edisa\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\edisa\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\edisa\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\edisa\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\edisa\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\edisa\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\edisa\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\edisa\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\edisa\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\edisa\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\edisa\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\edisa\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\edisa\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\edisa\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\edisa\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\edisa\.m2\repository\com\aventstack\extentreports\5.0.0\extentreports-5.0.0.jar;C:\Users\edisa\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\edisa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\edisa\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\edisa\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\edisa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\edisa\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\edisa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\edisa\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\edisa\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\edisa\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\edisa\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\edisa\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\edisa"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\edisa\AppData\Local\Temp\surefire6545828285475014629\surefirebooter4029779380935128286.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\edisa\AppData\Local\Temp\surefire5097657798444530479\surefirebooter8409151888153005459.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,15 +62,15 @@
     <property name="java.class.version" value="52.0"/>
   </properties>
   <testcase name="test_login" classname="org.apache.maven.archetypes.nopcommerceApp.TestLogin" time="0.013"/>
-  <testcase name="ddt_test_login" classname="org.apache.maven.archetypes.nopcommerceApp.DDTestLogin" time="4.925"/>
-  <testcase name="ddt_test_login" classname="org.apache.maven.archetypes.nopcommerceApp.DDTestLogin" time="0.518"/>
-  <testcase name="ddt_test_login" classname="org.apache.maven.archetypes.nopcommerceApp.DDTestLogin" time="0.513"/>
-  <testcase name="ddt_test_login" classname="org.apache.maven.archetypes.nopcommerceApp.DDTestLogin" time="0.555"/>
-  <testcase name="test_AddProduct" classname="org.apache.maven.archetypes.nopcommerceApp.TestAddProduct" time="8.771"/>
-  <testcase name="test_searchByProductName" classname="org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName" time="0.631"/>
-  <testcase name="test_searchProductByType" classname="org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType" time="0.556"/>
-  <testcase name="test_ifTheSearchedProductUpdatedAfterEditing" classname="org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct" time="5.816"/>
-  <testcase name="test_IfSearchedProductWasDeletedAfterPressingDeleteButton" classname="org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct" time="3.857"/>
-  <testcase name="test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton" classname="org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest" time="13.46"/>
-  <testcase name="test_addManufacturer" classname="org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer" time="6.169"/>
+  <testcase name="ddt_test_login" classname="org.apache.maven.archetypes.nopcommerceApp.DDTestLogin" time="7.07"/>
+  <testcase name="ddt_test_login" classname="org.apache.maven.archetypes.nopcommerceApp.DDTestLogin" time="0.526"/>
+  <testcase name="ddt_test_login" classname="org.apache.maven.archetypes.nopcommerceApp.DDTestLogin" time="0.522"/>
+  <testcase name="ddt_test_login" classname="org.apache.maven.archetypes.nopcommerceApp.DDTestLogin" time="0.475"/>
+  <testcase name="test_AddProduct" classname="org.apache.maven.archetypes.nopcommerceApp.TestAddProduct" time="6.569"/>
+  <testcase name="test_searchByProductName" classname="org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName" time="0.636"/>
+  <testcase name="test_searchProductByType" classname="org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType" time="0.675"/>
+  <testcase name="test_ifTheSearchedProductUpdatedAfterEditing" classname="org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct" time="6.284"/>
+  <testcase name="test_IfSearchedProductWasDeletedAfterPressingDeleteButton" classname="org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct" time="4.852"/>
+  <testcase name="test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton" classname="org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest" time="13.637"/>
+  <testcase name="test_addManufacturer" classname="org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer" time="13.139"/>
 </testsuite>

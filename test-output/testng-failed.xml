@@ -4,8 +4,8 @@
   <listeners>
     <listener class-name="utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" name="Products Tests(failed)">
-    <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Manufacturers Tests(failed)">
+    <parameter name="browser" value="opera"/>
     <classes>
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer">
         <methods>
@@ -17,5 +17,5 @@
         </methods>
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer -->
     </classes>
-  </test> <!-- Products Tests(failed) -->
+  </test> <!-- Manufacturers Tests(failed) -->
 </suite> <!-- Failed suite [nopCommerce Test Suite] -->
