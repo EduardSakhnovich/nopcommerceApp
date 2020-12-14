@@ -1,6 +1,6 @@
 # nopcommerceApp
 It's a mini cross-browser automation framework based on Maven, Selenium and TestNG.
-Written on Java language.Pattern used in this project is a Page Object Model.
+Written on Java language. Pattern used in this project is a Page Object Model.
 
 Framework is used for automation testing of the demo-website: https://admin-demo.nopcommerce.com.
 Supports Firefox, Internet Explorer, Opera and Google Chrome browsers.
