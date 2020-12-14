@@ -59,4 +59,10 @@ public class ReadConfig {
 		String firefoxPath = pro.getProperty("firefoxPath");
 		return firefoxPath;
 	}
+	
+	public String getOperaPath()
+	{
+		String operaPath = pro.getProperty("operaPath");
+		return operaPath;
+	}
 }

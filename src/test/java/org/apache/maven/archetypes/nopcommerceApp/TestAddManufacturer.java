@@ -26,9 +26,13 @@ public class TestAddManufacturer extends TestBase{
 	  
 	 addManufacturer.clickLnkCatalog();
 	 addManufacturer.clickLnkManufacturers();
+	 
+	 
 	  
 	 addManufacturer.clickAddNew();
+	 
 	 addManufacturer.addManufacturerName("Nokia");
+	
 
 	 addManufacturer.pageSize();
 	 addManufacturer.pageSizeOptions("6,10,30");

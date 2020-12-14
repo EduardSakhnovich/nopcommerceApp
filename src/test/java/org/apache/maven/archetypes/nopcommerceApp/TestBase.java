@@ -12,6 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.opera.OperaDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -56,6 +57,11 @@ public class TestBase {
 		{
 			System.setProperty("webdriver.ie.driver", readConfig.getIEPath());
 			driver = new InternetExplorerDriver();
+		}
+		else if(browser.equals("opera"))
+		{
+			System.setProperty("webdriver.opera.driver", readConfig.getOperaPath());
+			driver = new OperaDriver();
 		}
 			
 		
