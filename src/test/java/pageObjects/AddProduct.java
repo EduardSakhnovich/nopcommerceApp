@@ -1,6 +1,6 @@
 package pageObjects;
 
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.JavascriptExecutor;
 
 import org.openqa.selenium.WebDriver;
@@ -204,8 +204,7 @@ public class AddProduct extends BasePage{
 	
 	public void addPrice()
 	{
-		WebElement element = lDriver.findElement(By.xpath("//div[@id='product-price']"));
-		element.click();
+		
 		 
 		for(int i=0; i < 10; i++) {
 	       

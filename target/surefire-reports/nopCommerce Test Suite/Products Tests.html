@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Products Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Dec 13 19:12:19 IST 2020</td>
+<td>Started on:</td><td>Mon Dec 14 10:31:48 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>174 seconds (174751 ms)</td>
+<tr><td>Total time:</td><td>137 seconds (137457 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,93 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer.test_addManufacturer()'><b>test_addManufacturer</b><br>Test class: org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer</td>
-<td><div><pre>org.openqa.selenium.JavascriptException: javascript error: Failed to execute &apos;elementsFromPoint&apos; on &apos;Document&apos;: The provided double value is non-finite.
-  (Session info: chrome=87.0.4280.88)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-M2RIIBP&apos;, ip: &apos;10.0.0.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2476ed643911c2f5c719595a135d7f07
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
-	at pageObjects.AddManufacturer.pageSize(AddManufacturer.java:129)
-	at org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer.test_addManufacturer(TestAddManufacturer.java:33)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1925044167", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1925044167'><pre>org.openqa.selenium.JavascriptException: javascript error: Failed to execute &apos;elementsFromPoint&apos; on &apos;Document&apos;: The provided double value is non-finite.
-  (Session info: chrome=87.0.4280.88)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-M2RIIBP&apos;, ip: &apos;10.0.0.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\edisa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2476ed643911c2f5c719595a135d7f07
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
-	at pageObjects.AddManufacturer.pageSize(AddManufacturer.java:129)
-	at org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer.test_addManufacturer(TestAddManufacturer.java:33)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-</pre></div></td>
-<td>3</td>
-<td>org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer@335eadca</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -164,7 +77,7 @@ Session ID: 2476ed643911c2f5c719595a135d7f07
 <tr>
 <td title='org.apache.maven.archetypes.nopcommerceApp.DDTestLogin.ddt_test_login()'><b>ddt_test_login</b><br>Test class: org.apache.maven.archetypes.nopcommerceApp.DDTestLogin<br>Parameters: admin@yourstore.com,admin,Pass</td>
 <td></td>
-<td>6</td>
+<td>4</td>
 <td>org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@2d928643</td></tr>
 <tr>
 <td title='org.apache.maven.archetypes.nopcommerceApp.DDTestLogin.ddt_test_login()'><b>ddt_test_login</b><br>Test class: org.apache.maven.archetypes.nopcommerceApp.DDTestLogin<br>Parameters: admin@yourstore.com,adm,Fail</td>
@@ -184,23 +97,23 @@ Session ID: 2476ed643911c2f5c719595a135d7f07
 <tr>
 <td title='org.apache.maven.archetypes.nopcommerceApp.TestAddProduct.test_AddProduct()'><b>test_AddProduct</b><br>Test class: org.apache.maven.archetypes.nopcommerceApp.TestAddProduct</td>
 <td></td>
-<td>6</td>
-<td>org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@18eed359</td></tr>
+<td>8</td>
+<td>org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@6536e911</td></tr>
 <tr>
 <td title='org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest.test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton()'><b>test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton</b><br>Test class: org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest</td>
 <td></td>
-<td>27</td>
-<td>org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@67784306</td></tr>
+<td>13</td>
+<td>org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@6f1fba17</td></tr>
 <tr>
 <td title='org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct.test_IfSearchedProductWasDeletedAfterPressingDeleteButton()'><b>test_IfSearchedProductWasDeletedAfterPressingDeleteButton</b><br>Test class: org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct</td>
 <td></td>
-<td>4</td>
-<td>org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@185d8b6</td></tr>
+<td>3</td>
+<td>org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@6c3708b3</td></tr>
 <tr>
 <td title='org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct.test_ifTheSearchedProductUpdatedAfterEditing()'><b>test_ifTheSearchedProductUpdatedAfterEditing</b><br>Test class: org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct</td>
 <td></td>
-<td>6</td>
-<td>org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@6f1fba17</td></tr>
+<td>5</td>
+<td>org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@3e9b1010</td></tr>
 <tr>
 <td title='org.apache.maven.archetypes.nopcommerceApp.TestLogin.test_login()'><b>test_login</b><br>Test class: org.apache.maven.archetypes.nopcommerceApp.TestLogin</td>
 <td></td>
@@ -210,12 +123,12 @@ Session ID: 2476ed643911c2f5c719595a135d7f07
 <td title='org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName.test_searchByProductName()'><b>test_searchByProductName</b><br>Test class: org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName</td>
 <td></td>
 <td>0</td>
-<td>org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@3e9b1010</td></tr>
+<td>org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@520a3426</td></tr>
 <tr>
 <td title='org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType.test_searchProductByType()'><b>test_searchProductByType</b><br>Test class: org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType</td>
 <td></td>
 <td>0</td>
-<td>org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@6c3708b3</td></tr>
+<td>org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@18eed359</td></tr>
 </table><p>
 </body>
 </html>

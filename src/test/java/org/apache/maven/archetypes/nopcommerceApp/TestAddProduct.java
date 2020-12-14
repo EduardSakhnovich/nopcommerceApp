@@ -9,8 +9,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 public class TestAddProduct extends TestBase{
@@ -23,6 +25,7 @@ public class TestAddProduct extends TestBase{
   @Test
   public void test_AddProduct() throws InterruptedException {
 	  
+
 
 	  logger.info("providing product details..........");
 	  
@@ -97,8 +100,7 @@ public class TestAddProduct extends TestBase{
 		  logger.warn("Add product(after price update) test Failed");
 		  Assert.assertTrue(false,"Texts are not equal");
 		  
-	  }
-	  
+	  }  
 	  
   }
   @BeforeMethod

@@ -1,6 +1,5 @@
 package pageObjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -86,6 +85,7 @@ public class AddManufacturer extends BasePage{
 		wait.until(ExpectedConditions.elementToBeClickable(this.addNew)).click();
 	}
 	
+	
 	public void addManufacturerName(String mName)
 	{
 		
@@ -124,8 +124,7 @@ public class AddManufacturer extends BasePage{
 	
 	public void pageSize()
 	{
-		WebElement display = lDriver.findElement(By.xpath("//div[@class='panel panel-default collapsible-panel']//div[@class='panel-heading']"));
-		display.click();
+	
 		
 		for(int i=0; i< 20; i++)
 		{
