@@ -36,7 +36,7 @@
   
   <test name="Manufacturers Tests" preserve-order="true">
   
-    <parameter  name="browser" value="chrome"/>
+    <parameter  name="browser" value="opera"/>
     
     <classes>
        <class name="org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer"/>

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="nopCommerce Test Suite" duration-ms="210654" started-at="2020-12-14T11:12:58 IST" finished-at="2020-12-14T11:16:29 IST">
+  <suite name="nopCommerce Test Suite" duration-ms="194972" started-at="2020-12-14T12:43:02 IST" finished-at="2020-12-14T12:46:17 IST">
     <groups>
     </groups>
-    <test name="Login Tests" duration-ms="37669" started-at="2020-12-14T11:12:58 IST" finished-at="2020-12-14T11:13:36 IST">
+    <test name="Login Tests" duration-ms="34944" started-at="2020-12-14T12:43:02 IST" finished-at="2020-12-14T12:43:37 IST">
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestLogin">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="setup" is-config="true" duration-ms="7351" started-at="2020-12-14T11:12:58 IST" finished-at="2020-12-14T11:13:06 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="setup" is-config="true" duration-ms="6287" started-at="2020-12-14T12:43:03 IST" finished-at="2020-12-14T12:43:09 IST">
           <params>
             <param index="0">
               <value>
@@ -18,25 +18,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="beforeMethod" is-config="true" duration-ms="5120" started-at="2020-12-14T11:13:06 IST" finished-at="2020-12-14T11:13:11 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="beforeMethod" is-config="true" duration-ms="4875" started-at="2020-12-14T12:43:09 IST" finished-at="2020-12-14T12:43:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_login()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="test_login" duration-ms="8" started-at="2020-12-14T11:13:11 IST" finished-at="2020-12-14T11:13:11 IST">
+        <test-method status="PASS" signature="test_login()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="test_login" duration-ms="8" started-at="2020-12-14T12:43:14 IST" finished-at="2020-12-14T12:43:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_login -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-14T11:13:11 IST" finished-at="2020-12-14T11:13:11 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-14T12:43:14 IST" finished-at="2020-12-14T12:43:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="tearDown" is-config="true" duration-ms="5588" started-at="2020-12-14T11:13:11 IST" finished-at="2020-12-14T11:13:16 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestLogin@e320068]" name="tearDown" is-config="true" duration-ms="5615" started-at="2020-12-14T12:43:14 IST" finished-at="2020-12-14T12:43:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestLogin -->
       <class name="org.apache.maven.archetypes.nopcommerceApp.DDTestLogin">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="setup" is-config="true" duration-ms="6296" started-at="2020-12-14T11:13:16 IST" finished-at="2020-12-14T11:13:23 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="setup" is-config="true" duration-ms="4933" started-at="2020-12-14T12:43:19 IST" finished-at="2020-12-14T12:43:24 IST">
           <params>
             <param index="0">
               <value>
@@ -47,11 +47,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-12-14T11:13:23 IST" finished-at="2020-12-14T11:13:23 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-12-14T12:43:24 IST" finished-at="2020-12-14T12:43:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="ddt_test_login(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="ddt_test_login" duration-ms="5829" started-at="2020-12-14T11:13:23 IST" data-provider="dp" finished-at="2020-12-14T11:13:28 IST">
+        <test-method status="PASS" signature="ddt_test_login(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="ddt_test_login" duration-ms="5890" started-at="2020-12-14T12:43:24 IST" data-provider="dp" finished-at="2020-12-14T12:43:30 IST">
           <params>
             <param index="0">
               <value>
@@ -62,11 +62,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ddt_test_login -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-14T11:13:28 IST" finished-at="2020-12-14T11:13:28 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-12-14T12:43:30 IST" finished-at="2020-12-14T12:43:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="ddt_test_login(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="ddt_test_login" duration-ms="620" started-at="2020-12-14T11:13:28 IST" data-provider="dp" finished-at="2020-12-14T11:13:29 IST">
+        <test-method status="PASS" signature="ddt_test_login(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="ddt_test_login" duration-ms="527" started-at="2020-12-14T12:43:30 IST" data-provider="dp" finished-at="2020-12-14T12:43:31 IST">
           <params>
             <param index="0">
               <value>
@@ -77,19 +77,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ddt_test_login -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-12-14T11:13:28 IST" finished-at="2020-12-14T11:13:28 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-12-14T12:43:30 IST" finished-at="2020-12-14T12:43:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-12-14T11:13:29 IST" finished-at="2020-12-14T11:13:29 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-12-14T12:43:31 IST" finished-at="2020-12-14T12:43:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-14T11:13:29 IST" finished-at="2020-12-14T11:13:29 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-14T12:43:31 IST" finished-at="2020-12-14T12:43:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="ddt_test_login(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="ddt_test_login" duration-ms="533" started-at="2020-12-14T11:13:29 IST" data-provider="dp" finished-at="2020-12-14T11:13:30 IST">
+        <test-method status="PASS" signature="ddt_test_login(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="ddt_test_login" duration-ms="520" started-at="2020-12-14T12:43:31 IST" data-provider="dp" finished-at="2020-12-14T12:43:31 IST">
           <params>
             <param index="0">
               <value>
@@ -100,11 +100,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ddt_test_login -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-14T11:13:30 IST" finished-at="2020-12-14T11:13:30 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-14T12:43:31 IST" finished-at="2020-12-14T12:43:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="ddt_test_login(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="ddt_test_login" duration-ms="518" started-at="2020-12-14T11:13:30 IST" data-provider="dp" finished-at="2020-12-14T11:13:30 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-12-14T12:43:31 IST" finished-at="2020-12-14T12:43:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ddt_test_login(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="ddt_test_login" duration-ms="506" started-at="2020-12-14T12:43:31 IST" data-provider="dp" finished-at="2020-12-14T12:43:32 IST">
           <params>
             <param index="0">
               <value>
@@ -115,23 +119,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ddt_test_login -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-12-14T11:13:30 IST" finished-at="2020-12-14T11:13:30 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-14T11:13:30 IST" finished-at="2020-12-14T11:13:30 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-14T12:43:32 IST" finished-at="2020-12-14T12:43:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="tearDown" is-config="true" duration-ms="5592" started-at="2020-12-14T11:13:30 IST" finished-at="2020-12-14T11:13:36 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.DDTestLogin@1f57539]" name="tearDown" is-config="true" duration-ms="5576" started-at="2020-12-14T12:43:32 IST" finished-at="2020-12-14T12:43:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.DDTestLogin -->
     </test> <!-- Login Tests -->
-    <test name="Products Tests" duration-ms="151970" started-at="2020-12-14T11:13:36 IST" finished-at="2020-12-14T11:16:08 IST">
+    <test name="Products Tests" duration-ms="141615" started-at="2020-12-14T12:43:38 IST" finished-at="2020-12-14T12:45:59 IST">
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="setup" is-config="true" duration-ms="6560" started-at="2020-12-14T11:14:41 IST" finished-at="2020-12-14T11:14:47 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="setup" is-config="true" duration-ms="8478" started-at="2020-12-14T12:44:44 IST" finished-at="2020-12-14T12:44:53 IST">
           <params>
             <param index="0">
               <value>
@@ -142,25 +142,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="beforeMethod" is-config="true" duration-ms="2482" started-at="2020-12-14T11:14:47 IST" finished-at="2020-12-14T11:14:50 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="beforeMethod" is-config="true" duration-ms="3495" started-at="2020-12-14T12:44:53 IST" finished-at="2020-12-14T12:44:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_ifTheSearchedProductUpdatedAfterEditing()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="test_ifTheSearchedProductUpdatedAfterEditing" duration-ms="6071" started-at="2020-12-14T11:14:50 IST" finished-at="2020-12-14T11:14:56 IST">
+        <test-method status="PASS" signature="test_ifTheSearchedProductUpdatedAfterEditing()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="test_ifTheSearchedProductUpdatedAfterEditing" duration-ms="6415" started-at="2020-12-14T12:44:56 IST" finished-at="2020-12-14T12:45:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_ifTheSearchedProductUpdatedAfterEditing -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-14T11:14:56 IST" finished-at="2020-12-14T11:14:56 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-14T12:45:03 IST" finished-at="2020-12-14T12:45:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="tearDown" is-config="true" duration-ms="5655" started-at="2020-12-14T11:14:56 IST" finished-at="2020-12-14T11:15:02 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct@32d2fa64]" name="tearDown" is-config="true" duration-ms="5642" started-at="2020-12-14T12:45:03 IST" finished-at="2020-12-14T12:45:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct -->
       <class name="org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="setup" is-config="true" duration-ms="8493" started-at="2020-12-14T11:15:22 IST" finished-at="2020-12-14T11:15:31 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="setup" is-config="true" duration-ms="8070" started-at="2020-12-14T12:45:27 IST" finished-at="2020-12-14T12:45:35 IST">
           <params>
             <param index="0">
               <value>
@@ -171,25 +171,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="beforeMethod" is-config="true" duration-ms="3597" started-at="2020-12-14T11:15:31 IST" finished-at="2020-12-14T11:15:34 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="beforeMethod" is-config="true" duration-ms="4307" started-at="2020-12-14T12:45:35 IST" finished-at="2020-12-14T12:45:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton" duration-ms="27988" started-at="2020-12-14T11:15:34 IST" finished-at="2020-12-14T11:16:02 IST">
+        <test-method status="PASS" signature="test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton" duration-ms="14210" started-at="2020-12-14T12:45:39 IST" finished-at="2020-12-14T12:45:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-14T11:16:02 IST" finished-at="2020-12-14T11:16:02 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-14T12:45:54 IST" finished-at="2020-12-14T12:45:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="tearDown" is-config="true" duration-ms="5654" started-at="2020-12-14T11:16:02 IST" finished-at="2020-12-14T11:16:08 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest@3e57cd70]" name="tearDown" is-config="true" duration-ms="5647" started-at="2020-12-14T12:45:54 IST" finished-at="2020-12-14T12:45:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest -->
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="setup" is-config="true" duration-ms="6572" started-at="2020-12-14T11:14:04 IST" finished-at="2020-12-14T11:14:10 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="setup" is-config="true" duration-ms="8395" started-at="2020-12-14T12:44:05 IST" finished-at="2020-12-14T12:44:13 IST">
           <params>
             <param index="0">
               <value>
@@ -200,25 +200,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="beforeMethod" is-config="true" duration-ms="4744" started-at="2020-12-14T11:14:10 IST" finished-at="2020-12-14T11:14:15 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="beforeMethod" is-config="true" duration-ms="4829" started-at="2020-12-14T12:44:13 IST" finished-at="2020-12-14T12:44:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_searchByProductName()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="test_searchByProductName" duration-ms="649" started-at="2020-12-14T11:14:15 IST" finished-at="2020-12-14T11:14:16 IST">
+        <test-method status="PASS" signature="test_searchByProductName()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="test_searchByProductName" duration-ms="644" started-at="2020-12-14T12:44:18 IST" finished-at="2020-12-14T12:44:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_searchByProductName -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-14T11:14:16 IST" finished-at="2020-12-14T11:14:16 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-14T12:44:18 IST" finished-at="2020-12-14T12:44:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="tearDown" is-config="true" duration-ms="5627" started-at="2020-12-14T11:14:16 IST" finished-at="2020-12-14T11:14:21 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName@27808f31]" name="tearDown" is-config="true" duration-ms="5632" started-at="2020-12-14T12:44:18 IST" finished-at="2020-12-14T12:44:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName -->
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="setup" is-config="true" duration-ms="7702" started-at="2020-12-14T11:15:02 IST" finished-at="2020-12-14T11:15:09 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="setup" is-config="true" duration-ms="6702" started-at="2020-12-14T12:45:08 IST" finished-at="2020-12-14T12:45:15 IST">
           <params>
             <param index="0">
               <value>
@@ -229,25 +229,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="beforeMethod" is-config="true" duration-ms="3342" started-at="2020-12-14T11:15:09 IST" finished-at="2020-12-14T11:15:13 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="beforeMethod" is-config="true" duration-ms="2296" started-at="2020-12-14T12:45:15 IST" finished-at="2020-12-14T12:45:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_IfSearchedProductWasDeletedAfterPressingDeleteButton()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="test_IfSearchedProductWasDeletedAfterPressingDeleteButton" duration-ms="3928" started-at="2020-12-14T11:15:13 IST" finished-at="2020-12-14T11:15:17 IST">
+        <test-method status="PASS" signature="test_IfSearchedProductWasDeletedAfterPressingDeleteButton()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="test_IfSearchedProductWasDeletedAfterPressingDeleteButton" duration-ms="4094" started-at="2020-12-14T12:45:17 IST" finished-at="2020-12-14T12:45:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_IfSearchedProductWasDeletedAfterPressingDeleteButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-14T11:15:17 IST" finished-at="2020-12-14T11:15:17 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="tearDown" is-config="true" duration-ms="5599" started-at="2020-12-14T11:15:17 IST" finished-at="2020-12-14T11:15:22 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="tearDown" is-config="true" duration-ms="5632" started-at="2020-12-14T12:45:21 IST" finished-at="2020-12-14T12:45:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct@1d8d30f7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-14T12:45:21 IST" finished-at="2020-12-14T12:45:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct -->
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestAddProduct">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="setup" is-config="true" duration-ms="8384" started-at="2020-12-14T11:13:36 IST" finished-at="2020-12-14T11:13:44 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="setup" is-config="true" duration-ms="7866" started-at="2020-12-14T12:43:38 IST" finished-at="2020-12-14T12:43:45 IST">
           <params>
             <param index="0">
               <value>
@@ -258,25 +258,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="beforeMethod" is-config="true" duration-ms="7784" started-at="2020-12-14T11:13:44 IST" finished-at="2020-12-14T11:13:52 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="beforeMethod" is-config="true" duration-ms="7490" started-at="2020-12-14T12:43:45 IST" finished-at="2020-12-14T12:43:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_AddProduct()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="test_AddProduct" duration-ms="5972" started-at="2020-12-14T11:13:52 IST" finished-at="2020-12-14T11:13:58 IST">
+        <test-method status="PASS" signature="test_AddProduct()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="test_AddProduct" duration-ms="6035" started-at="2020-12-14T12:43:53 IST" finished-at="2020-12-14T12:43:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_AddProduct -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-14T11:13:58 IST" finished-at="2020-12-14T11:13:58 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-14T12:43:59 IST" finished-at="2020-12-14T12:43:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="tearDown" is-config="true" duration-ms="5631" started-at="2020-12-14T11:13:58 IST" finished-at="2020-12-14T11:14:04 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddProduct@37d31475]" name="tearDown" is-config="true" duration-ms="5631" started-at="2020-12-14T12:43:59 IST" finished-at="2020-12-14T12:44:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestAddProduct -->
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="setup" is-config="true" duration-ms="8595" started-at="2020-12-14T11:14:21 IST" finished-at="2020-12-14T11:14:30 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="setup" is-config="true" duration-ms="8494" started-at="2020-12-14T12:44:24 IST" finished-at="2020-12-14T12:44:33 IST">
           <params>
             <param index="0">
               <value>
@@ -287,27 +287,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="beforeClass" is-config="true" duration-ms="4702" started-at="2020-12-14T11:14:30 IST" finished-at="2020-12-14T11:14:35 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="beforeClass" is-config="true" duration-ms="5292" started-at="2020-12-14T12:44:33 IST" finished-at="2020-12-14T12:44:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test_searchProductByType()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="test_searchProductByType" duration-ms="594" started-at="2020-12-14T11:14:35 IST" finished-at="2020-12-14T11:14:35 IST">
+        <test-method status="PASS" signature="test_searchProductByType()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="test_searchProductByType" duration-ms="666" started-at="2020-12-14T12:44:38 IST" finished-at="2020-12-14T12:44:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_searchProductByType -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-14T11:14:35 IST" finished-at="2020-12-14T11:14:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="tearDown" is-config="true" duration-ms="5628" started-at="2020-12-14T11:14:35 IST" finished-at="2020-12-14T11:14:41 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="tearDown" is-config="true" duration-ms="5636" started-at="2020-12-14T12:44:39 IST" finished-at="2020-12-14T12:44:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType@436e852b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-14T12:44:39 IST" finished-at="2020-12-14T12:44:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType -->
     </test> <!-- Products Tests -->
-    <test name="Manufacturers Tests" duration-ms="20745" started-at="2020-12-14T11:16:08 IST" finished-at="2020-12-14T11:16:29 IST">
+    <test name="Manufacturers Tests" duration-ms="18152" started-at="2020-12-14T12:45:59 IST" finished-at="2020-12-14T12:46:17 IST">
       <class name="org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer@687080dc]" name="setup" is-config="true" duration-ms="4557" started-at="2020-12-14T11:16:08 IST" finished-at="2020-12-14T11:16:12 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer@687080dc]" name="setup" is-config="true" duration-ms="3007" started-at="2020-12-14T12:45:59 IST" finished-at="2020-12-14T12:46:02 IST">
           <params>
             <param index="0">
               <value>
@@ -318,19 +318,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer@687080dc]" name="beforeMethod" is-config="true" duration-ms="3916" started-at="2020-12-14T11:16:12 IST" finished-at="2020-12-14T11:16:16 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer@687080dc]" name="beforeMethod" is-config="true" duration-ms="2260" started-at="2020-12-14T12:46:02 IST" finished-at="2020-12-14T12:46:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_addManufacturer()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer@687080dc]" name="test_addManufacturer" duration-ms="6629" started-at="2020-12-14T11:16:16 IST" finished-at="2020-12-14T11:16:23 IST">
+        <test-method status="PASS" signature="test_addManufacturer()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer@687080dc]" name="test_addManufacturer" duration-ms="7276" started-at="2020-12-14T12:46:05 IST" finished-at="2020-12-14T12:46:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_addManufacturer -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer@687080dc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-12-14T11:16:23 IST" finished-at="2020-12-14T11:16:23 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer@687080dc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-14T12:46:12 IST" finished-at="2020-12-14T12:46:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer@687080dc]" name="tearDown" is-config="true" duration-ms="5638" started-at="2020-12-14T11:16:23 IST" finished-at="2020-12-14T11:16:29 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer@687080dc]" name="tearDown" is-config="true" duration-ms="5606" started-at="2020-12-14T12:46:12 IST" finished-at="2020-12-14T12:46:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
