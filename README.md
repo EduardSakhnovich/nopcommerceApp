@@ -4,9 +4,10 @@ Written on Java language. Pattern used in this project is a Page Object Model.
 
 Framework is used for automation testing of the demo-website: https://admin-demo.nopcommerce.com.
 Supports Firefox, Internet Explorer, Opera and Google Chrome browsers.
-You can clone it into your IDE and run as a test suite.
+You can clone it into your IDE and run as a test suite. 
 To run the builds use the run.bat file and Jenkins.
 (In a batch file change the path to the project to your own)
 To run build in Jenkins use the batch run.bat as well, and also the git URL of this repository.
 
-To view the code, go to src > test/java
+Test suite tu run is defined in testng.xml file.
+To view the code, go to src > test/java.
