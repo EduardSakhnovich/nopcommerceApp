@@ -9,5 +9,5 @@ To run the builds use the run.bat file and Jenkins.
 (In a batch file change the path to the project to your own)
 To run build in Jenkins use the batch run.bat as well, and also the git URL of this repository.
 
-Test suite tu run is defined in testng.xml file.
-To view the code, go to src > test/java.
+Test suite  is defined in testng.xml file.
+To view the code, the framework written on, go to src > test/java.
