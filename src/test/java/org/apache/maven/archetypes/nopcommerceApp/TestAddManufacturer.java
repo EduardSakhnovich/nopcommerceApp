@@ -9,6 +9,7 @@ import pageObjects.LoginPage;
 
 import org.testng.annotations.BeforeMethod;
 
+import java.awt.AWTException;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
@@ -22,7 +23,7 @@ public class TestAddManufacturer extends TestBase{
 	
 	
   @Test
-  public void test_addManufacturer() {
+  public void test_addManufacturer() throws AWTException, InterruptedException {
 	  
 	 addManufacturer.clickLnkCatalog();
 	 addManufacturer.clickLnkManufacturers();
@@ -31,13 +32,15 @@ public class TestAddManufacturer extends TestBase{
 	  
 	 addManufacturer.clickAddNew();
 	 
-	 addManufacturer.addManufacturerName("Nokia");
+	 addManufacturer.addManufacturerName("Samsung");
+	 addManufacturer.loadImage("D:\\Programming Languages\\Java\\nopcommerceApp\\images\\samsung.png");
 	
-
 	 addManufacturer.pageSize();
 	 addManufacturer.pageSizeOptions("6,10,30");
 	 addManufacturer.priceRanges("10000-20000"); 
 	 addManufacturer.displayOrder();
+	 
+	
 	 addManufacturer.clickSaveButton();
 	 
 	 logger.info("validation started");

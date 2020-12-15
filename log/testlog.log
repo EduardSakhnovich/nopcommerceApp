@@ -7598,3 +7598,434 @@
 2020-12-14 12:46:12,168 - nopcommerceApp -INFO - validation started
 2020-12-14 12:46:12,277 - nopcommerceApp -INFO - Add Manufacturer test Passed
 2020-12-14 12:46:12,278 - nopcommerceApp -INFO - Load Add Manufacturer Test Completed
+2020-12-14 20:09:35,900 - nopcommerceApp -INFO - Prepare Login test
+2020-12-14 20:09:35,980 - nopcommerceApp -INFO - Entered username
+2020-12-14 20:09:36,047 - nopcommerceApp -INFO - Entered password
+2020-12-14 20:09:43,704 - nopcommerceApp -INFO - Login validation started......
+2020-12-14 20:09:43,706 - nopcommerceApp -INFO - Login test passed
+2020-12-14 20:09:43,720 - nopcommerceApp -INFO - Login test Completed
+2020-12-14 20:09:55,961 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-14 20:09:56,025 - nopcommerceApp -INFO - Entered username
+2020-12-14 20:09:56,078 - nopcommerceApp -INFO - Entered password
+2020-12-14 20:10:02,765 - nopcommerceApp -INFO - Positive testing
+2020-12-14 20:10:04,117 - nopcommerceApp -INFO - DDT validation started........
+2020-12-14 20:10:04,117 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-14 20:10:04,119 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-14 20:10:04,119 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-14 20:10:04,183 - nopcommerceApp -INFO - Entered username
+2020-12-14 20:10:04,234 - nopcommerceApp -INFO - Entered password
+2020-12-14 20:10:04,688 - nopcommerceApp -INFO - Negative testing
+2020-12-14 20:10:04,689 - nopcommerceApp -INFO - DDT validation started........
+2020-12-14 20:10:04,689 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-14 20:10:04,691 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-14 20:10:04,691 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-14 20:10:04,758 - nopcommerceApp -INFO - Entered username
+2020-12-14 20:10:04,826 - nopcommerceApp -INFO - Entered password
+2020-12-14 20:10:05,236 - nopcommerceApp -INFO - Negative testing
+2020-12-14 20:10:05,236 - nopcommerceApp -INFO - DDT validation started........
+2020-12-14 20:10:05,236 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-14 20:10:05,238 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-14 20:10:05,238 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-14 20:10:05,305 - nopcommerceApp -INFO - Entered username
+2020-12-14 20:10:05,371 - nopcommerceApp -INFO - Entered password
+2020-12-14 20:10:05,795 - nopcommerceApp -INFO - Negative testing
+2020-12-14 20:10:05,795 - nopcommerceApp -INFO - DDT validation started........
+2020-12-14 20:10:05,795 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-14 20:10:05,797 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-14 20:10:19,888 - nopcommerceApp -INFO - Prepare Add product Test
+2020-12-14 20:10:19,972 - nopcommerceApp -INFO - username provided
+2020-12-14 20:10:20,056 - nopcommerceApp -INFO - password provided
+2020-12-14 20:10:24,157 - nopcommerceApp -INFO - Go to Add product Page
+2020-12-14 20:10:35,741 - nopcommerceApp -INFO - providing product details..........
+2020-12-14 20:10:36,637 - nopcommerceApp -INFO - save and update price
+2020-12-14 20:10:39,466 - nopcommerceApp -INFO - validation before price update started.........
+2020-12-14 20:10:39,530 - nopcommerceApp -INFO - Add product(before price update) test Passed
+2020-12-14 20:10:39,530 - nopcommerceApp -INFO - After product added update price
+2020-12-14 20:10:42,618 - nopcommerceApp -INFO - validation after price update started.........
+2020-12-14 20:10:42,639 - nopcommerceApp -INFO - Add product(after price update) test Passed
+2020-12-14 20:10:42,640 - nopcommerceApp -INFO - Add product test Completed
+2020-12-14 20:10:56,454 - nopcommerceApp -INFO - Prepare Search product by name Test
+2020-12-14 20:10:56,545 - nopcommerceApp -INFO - username provided
+2020-12-14 20:10:56,632 - nopcommerceApp -INFO - password provided
+2020-12-14 20:11:03,022 - nopcommerceApp -INFO - go to search product page
+2020-12-14 20:11:05,405 - nopcommerceApp -INFO - validation by name  started.......
+2020-12-14 20:11:05,921 - nopcommerceApp -INFO - test_searchByProductName Passed
+2020-12-14 20:11:05,923 - nopcommerceApp -INFO - Search product by name test Completed
+2020-12-14 20:11:19,919 - nopcommerceApp -INFO - Prepare Search product by type Test
+2020-12-14 20:11:20,001 - nopcommerceApp -INFO - username provided
+2020-12-14 20:11:20,105 - nopcommerceApp -INFO - password provided
+2020-12-14 20:11:24,798 - nopcommerceApp -INFO - go to search product page
+2020-12-14 20:11:26,965 - nopcommerceApp -INFO - validation by type started.........
+2020-12-14 20:11:28,871 - nopcommerceApp -INFO - Search product by type test Passed
+2020-12-14 20:11:28,873 - nopcommerceApp -INFO - Search product by type test Completed
+2020-12-14 20:11:41,296 - nopcommerceApp -INFO - Load Edit searched product Test
+2020-12-14 20:11:41,392 - nopcommerceApp -INFO - Provide username
+2020-12-14 20:11:41,494 - nopcommerceApp -INFO - Provide password
+2020-12-14 20:11:52,943 - nopcommerceApp -INFO - Edit searched product test Passed
+2020-12-14 20:11:52,944 - nopcommerceApp -INFO - Edit searched product test Completed
+2020-12-14 20:12:05,256 - nopcommerceApp -INFO - test_IfSearchedProductWasDeletedAfterPressingDeleteButton loaded
+2020-12-14 20:12:05,348 - nopcommerceApp -INFO - username provided
+2020-12-14 20:12:05,431 - nopcommerceApp -INFO - password provided
+2020-12-14 20:12:12,171 - nopcommerceApp -INFO - test_IfSearchedProductWasDeletedAfterPressingDeleteButton passed
+2020-12-14 20:12:12,172 - nopcommerceApp -INFO - test_IfSearchedProductWasDeletedAfterPressingDeleteButton completed
+2020-12-14 20:12:26,755 - nopcommerceApp -INFO - Load test
+2020-12-14 20:12:26,863 - nopcommerceApp -INFO - username provided
+2020-12-14 20:12:26,949 - nopcommerceApp -INFO - password provided
+2020-12-14 20:12:45,499 - nopcommerceApp -INFO - validation started
+2020-12-14 20:12:46,632 - nopcommerceApp -INFO - Delete all the products test Passed
+2020-12-14 20:12:46,634 - nopcommerceApp -INFO - Delete all the products test completed
+2020-12-14 20:12:59,165 - nopcommerceApp -INFO - Load Add Manufacturer Test
+2020-12-14 20:12:59,262 - nopcommerceApp -INFO - username provided
+2020-12-14 20:12:59,344 - nopcommerceApp -INFO - password provided
+2020-12-14 20:13:11,027 - nopcommerceApp -INFO - Load Add Manufacturer Test Completed
+2020-12-14 20:14:46,104 - nopcommerceApp -INFO - Load Add Manufacturer Test
+2020-12-14 20:14:46,201 - nopcommerceApp -INFO - username provided
+2020-12-14 20:14:46,310 - nopcommerceApp -INFO - password provided
+2020-12-14 20:14:56,487 - nopcommerceApp -INFO - Load Add Manufacturer Test Completed
+2020-12-14 20:15:22,679 - nopcommerceApp -INFO - Load Add Manufacturer Test
+2020-12-14 20:15:22,809 - nopcommerceApp -INFO - username provided
+2020-12-14 20:15:22,883 - nopcommerceApp -INFO - password provided
+2020-12-14 20:15:40,600 - nopcommerceApp -INFO - validation started
+2020-12-14 20:15:40,810 - nopcommerceApp -WARN - Add Manufacturer test Failed
+2020-12-14 20:15:41,210 - nopcommerceApp -INFO - Load Add Manufacturer Test Completed
+2020-12-14 20:16:48,451 - nopcommerceApp -INFO - Load Add Manufacturer Test
+2020-12-14 20:16:48,552 - nopcommerceApp -INFO - username provided
+2020-12-14 20:16:48,655 - nopcommerceApp -INFO - password provided
+2020-12-14 20:17:07,647 - nopcommerceApp -INFO - validation started
+2020-12-14 20:17:07,740 - nopcommerceApp -INFO - Add Manufacturer test Passed
+2020-12-14 20:17:07,750 - nopcommerceApp -INFO - Load Add Manufacturer Test Completed
+2020-12-14 20:18:20,326 - nopcommerceApp -INFO - Load Add Manufacturer Test
+2020-12-14 20:18:20,437 - nopcommerceApp -INFO - username provided
+2020-12-14 20:18:20,521 - nopcommerceApp -INFO - password provided
+2020-12-14 20:18:35,957 - nopcommerceApp -INFO - validation started
+2020-12-14 20:18:35,997 - nopcommerceApp -INFO - Load Add Manufacturer Test Completed
+2020-12-14 20:19:16,368 - nopcommerceApp -INFO - Load Add Manufacturer Test
+2020-12-14 20:19:16,492 - nopcommerceApp -INFO - username provided
+2020-12-14 20:19:16,579 - nopcommerceApp -INFO - password provided
+2020-12-14 20:19:31,972 - nopcommerceApp -INFO - validation started
+2020-12-14 20:19:32,010 - nopcommerceApp -INFO - Load Add Manufacturer Test Completed
+2020-12-14 20:20:15,672 - nopcommerceApp -INFO - Load Add Manufacturer Test
+2020-12-14 20:20:15,785 - nopcommerceApp -INFO - username provided
+2020-12-14 20:20:15,882 - nopcommerceApp -INFO - password provided
+2020-12-14 20:20:31,702 - nopcommerceApp -INFO - validation started
+2020-12-14 20:20:31,807 - nopcommerceApp -INFO - Add Manufacturer test Passed
+2020-12-14 20:20:31,818 - nopcommerceApp -INFO - Load Add Manufacturer Test Completed
+2020-12-14 20:21:30,411 - nopcommerceApp -INFO - Prepare Login test
+2020-12-14 20:21:30,481 - nopcommerceApp -INFO - Entered username
+2020-12-14 20:21:30,549 - nopcommerceApp -INFO - Entered password
+2020-12-14 20:21:35,823 - nopcommerceApp -INFO - Login validation started......
+2020-12-14 20:21:35,825 - nopcommerceApp -INFO - Login test passed
+2020-12-14 20:21:35,835 - nopcommerceApp -INFO - Login test Completed
+2020-12-14 20:21:47,944 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-14 20:21:48,009 - nopcommerceApp -INFO - Entered username
+2020-12-14 20:21:48,062 - nopcommerceApp -INFO - Entered password
+2020-12-14 20:21:53,060 - nopcommerceApp -INFO - Positive testing
+2020-12-14 20:21:54,618 - nopcommerceApp -INFO - DDT validation started........
+2020-12-14 20:21:54,618 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-14 20:21:54,620 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-14 20:21:54,621 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-14 20:21:54,676 - nopcommerceApp -INFO - Entered username
+2020-12-14 20:21:54,725 - nopcommerceApp -INFO - Entered password
+2020-12-14 20:21:55,161 - nopcommerceApp -INFO - Negative testing
+2020-12-14 20:21:55,161 - nopcommerceApp -INFO - DDT validation started........
+2020-12-14 20:21:55,161 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-14 20:21:55,163 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-14 20:21:55,163 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-14 20:21:55,222 - nopcommerceApp -INFO - Entered username
+2020-12-14 20:21:55,273 - nopcommerceApp -INFO - Entered password
+2020-12-14 20:21:55,705 - nopcommerceApp -INFO - Negative testing
+2020-12-14 20:21:55,706 - nopcommerceApp -INFO - DDT validation started........
+2020-12-14 20:21:55,706 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-14 20:21:55,708 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-14 20:21:55,708 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-14 20:21:55,768 - nopcommerceApp -INFO - Entered username
+2020-12-14 20:21:55,833 - nopcommerceApp -INFO - Entered password
+2020-12-14 20:21:56,258 - nopcommerceApp -INFO - Negative testing
+2020-12-14 20:21:56,258 - nopcommerceApp -INFO - DDT validation started........
+2020-12-14 20:21:56,258 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-14 20:21:56,260 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-14 20:22:10,668 - nopcommerceApp -INFO - Prepare Add product Test
+2020-12-14 20:22:10,763 - nopcommerceApp -INFO - username provided
+2020-12-14 20:22:10,841 - nopcommerceApp -INFO - password provided
+2020-12-14 20:22:14,678 - nopcommerceApp -INFO - Go to Add product Page
+2020-12-14 20:22:19,149 - nopcommerceApp -INFO - providing product details..........
+2020-12-14 20:22:20,030 - nopcommerceApp -INFO - save and update price
+2020-12-14 20:22:22,238 - nopcommerceApp -INFO - validation before price update started.........
+2020-12-14 20:22:22,269 - nopcommerceApp -INFO - Add product(before price update) test Passed
+2020-12-14 20:22:22,269 - nopcommerceApp -INFO - After product added update price
+2020-12-14 20:22:25,984 - nopcommerceApp -INFO - validation after price update started.........
+2020-12-14 20:22:26,005 - nopcommerceApp -INFO - Add product(after price update) test Passed
+2020-12-14 20:22:26,007 - nopcommerceApp -INFO - Add product test Completed
+2020-12-14 20:22:40,374 - nopcommerceApp -INFO - Prepare Search product by name Test
+2020-12-14 20:22:40,460 - nopcommerceApp -INFO - username provided
+2020-12-14 20:22:40,543 - nopcommerceApp -INFO - password provided
+2020-12-14 20:22:44,124 - nopcommerceApp -INFO - go to search product page
+2020-12-14 20:22:46,180 - nopcommerceApp -INFO - validation by name  started.......
+2020-12-14 20:22:46,660 - nopcommerceApp -INFO - test_searchByProductName Passed
+2020-12-14 20:22:46,661 - nopcommerceApp -INFO - Search product by name test Completed
+2020-12-14 20:22:59,195 - nopcommerceApp -INFO - Prepare Search product by type Test
+2020-12-14 20:22:59,279 - nopcommerceApp -INFO - username provided
+2020-12-14 20:22:59,381 - nopcommerceApp -INFO - password provided
+2020-12-14 20:23:02,621 - nopcommerceApp -INFO - go to search product page
+2020-12-14 20:23:04,674 - nopcommerceApp -INFO - validation by type started.........
+2020-12-14 20:23:05,119 - nopcommerceApp -INFO - Search product by type test Passed
+2020-12-14 20:23:05,120 - nopcommerceApp -INFO - Search product by type test Completed
+2020-12-14 20:23:18,265 - nopcommerceApp -INFO - Load Edit searched product Test
+2020-12-14 20:23:18,364 - nopcommerceApp -INFO - Provide username
+2020-12-14 20:23:18,461 - nopcommerceApp -INFO - Provide password
+2020-12-14 20:23:28,019 - nopcommerceApp -INFO - Edit searched product test Passed
+2020-12-14 20:23:28,021 - nopcommerceApp -INFO - Edit searched product test Completed
+2020-12-14 20:23:42,307 - nopcommerceApp -INFO - test_IfSearchedProductWasDeletedAfterPressingDeleteButton loaded
+2020-12-14 20:23:42,391 - nopcommerceApp -INFO - username provided
+2020-12-14 20:23:42,476 - nopcommerceApp -INFO - password provided
+2020-12-14 20:23:50,732 - nopcommerceApp -INFO - test_IfSearchedProductWasDeletedAfterPressingDeleteButton passed
+2020-12-14 20:23:50,733 - nopcommerceApp -INFO - test_IfSearchedProductWasDeletedAfterPressingDeleteButton completed
+2020-12-14 20:24:06,086 - nopcommerceApp -INFO - Load test
+2020-12-14 20:24:06,173 - nopcommerceApp -INFO - username provided
+2020-12-14 20:24:06,257 - nopcommerceApp -INFO - password provided
+2020-12-14 20:24:40,634 - nopcommerceApp -INFO - validation started
+2020-12-14 20:24:40,661 - nopcommerceApp -INFO - Delete all the products test Passed
+2020-12-14 20:24:40,662 - nopcommerceApp -INFO - Delete all the products test completed
+2020-12-14 20:24:55,227 - nopcommerceApp -INFO - Load Add Manufacturer Test
+2020-12-14 20:24:55,323 - nopcommerceApp -INFO - username provided
+2020-12-14 20:24:55,403 - nopcommerceApp -INFO - password provided
+2020-12-14 20:25:11,518 - nopcommerceApp -INFO - validation started
+2020-12-14 20:25:11,629 - nopcommerceApp -INFO - Add Manufacturer test Passed
+2020-12-14 20:25:11,630 - nopcommerceApp -INFO - Load Add Manufacturer Test Completed
+2020-12-14 20:26:28,499 - nopcommerceApp -INFO - Prepare Login test
+2020-12-14 20:26:28,585 - nopcommerceApp -INFO - Entered username
+2020-12-14 20:26:28,633 - nopcommerceApp -INFO - Entered password
+2020-12-14 20:26:32,699 - nopcommerceApp -INFO - Login validation started......
+2020-12-14 20:26:32,702 - nopcommerceApp -INFO - Login test passed
+2020-12-14 20:26:32,714 - nopcommerceApp -INFO - Login test Completed
+2020-12-14 20:26:44,500 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-14 20:26:44,556 - nopcommerceApp -INFO - Entered username
+2020-12-14 20:26:44,608 - nopcommerceApp -INFO - Entered password
+2020-12-14 20:26:49,481 - nopcommerceApp -INFO - Positive testing
+2020-12-14 20:26:51,418 - nopcommerceApp -INFO - DDT validation started........
+2020-12-14 20:26:51,418 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-14 20:26:51,420 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-14 20:26:51,420 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-14 20:26:51,483 - nopcommerceApp -INFO - Entered username
+2020-12-14 20:26:51,532 - nopcommerceApp -INFO - Entered password
+2020-12-14 20:26:51,974 - nopcommerceApp -INFO - Negative testing
+2020-12-14 20:26:51,974 - nopcommerceApp -INFO - DDT validation started........
+2020-12-14 20:26:51,975 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-14 20:26:51,976 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-14 20:26:51,977 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-14 20:26:52,040 - nopcommerceApp -INFO - Entered username
+2020-12-14 20:26:52,089 - nopcommerceApp -INFO - Entered password
+2020-12-14 20:26:52,514 - nopcommerceApp -INFO - Negative testing
+2020-12-14 20:26:52,514 - nopcommerceApp -INFO - DDT validation started........
+2020-12-14 20:26:52,515 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-14 20:26:52,515 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-14 20:26:52,516 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-14 20:26:52,582 - nopcommerceApp -INFO - Entered username
+2020-12-14 20:26:52,633 - nopcommerceApp -INFO - Entered password
+2020-12-14 20:26:53,037 - nopcommerceApp -INFO - Negative testing
+2020-12-14 20:26:53,037 - nopcommerceApp -INFO - DDT validation started........
+2020-12-14 20:26:53,037 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-14 20:26:53,038 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-14 20:27:07,173 - nopcommerceApp -INFO - Prepare Add product Test
+2020-12-14 20:27:07,267 - nopcommerceApp -INFO - username provided
+2020-12-14 20:27:07,347 - nopcommerceApp -INFO - password provided
+2020-12-14 20:27:11,445 - nopcommerceApp -INFO - Go to Add product Page
+2020-12-14 20:27:15,751 - nopcommerceApp -INFO - providing product details..........
+2020-12-14 20:27:16,614 - nopcommerceApp -INFO - save and update price
+2020-12-14 20:27:18,847 - nopcommerceApp -INFO - validation before price update started.........
+2020-12-14 20:27:18,937 - nopcommerceApp -INFO - Add product(before price update) test Passed
+2020-12-14 20:27:18,938 - nopcommerceApp -INFO - After product added update price
+2020-12-14 20:27:22,180 - nopcommerceApp -INFO - validation after price update started.........
+2020-12-14 20:27:22,214 - nopcommerceApp -INFO - Add product(after price update) test Passed
+2020-12-14 20:27:22,214 - nopcommerceApp -INFO - Add product test Completed
+2020-12-14 20:27:36,330 - nopcommerceApp -INFO - Prepare Search product by name Test
+2020-12-14 20:27:36,423 - nopcommerceApp -INFO - username provided
+2020-12-14 20:27:36,529 - nopcommerceApp -INFO - password provided
+2020-12-14 20:27:40,090 - nopcommerceApp -INFO - go to search product page
+2020-12-14 20:27:42,745 - nopcommerceApp -INFO - validation by name  started.......
+2020-12-14 20:27:43,222 - nopcommerceApp -INFO - test_searchByProductName Passed
+2020-12-14 20:27:43,223 - nopcommerceApp -INFO - Search product by name test Completed
+2020-12-14 20:27:57,370 - nopcommerceApp -INFO - Prepare Search product by type Test
+2020-12-14 20:27:57,455 - nopcommerceApp -INFO - username provided
+2020-12-14 20:27:57,541 - nopcommerceApp -INFO - password provided
+2020-12-14 20:28:03,838 - nopcommerceApp -INFO - go to search product page
+2020-12-14 20:28:06,013 - nopcommerceApp -INFO - validation by type started.........
+2020-12-14 20:28:06,474 - nopcommerceApp -INFO - Search product by type test Passed
+2020-12-14 20:28:06,475 - nopcommerceApp -INFO - Search product by type test Completed
+2020-12-14 20:28:18,827 - nopcommerceApp -INFO - Load Edit searched product Test
+2020-12-14 20:28:18,919 - nopcommerceApp -INFO - Provide username
+2020-12-14 20:28:19,020 - nopcommerceApp -INFO - Provide password
+2020-12-14 20:28:27,469 - nopcommerceApp -INFO - Edit searched product test Passed
+2020-12-14 20:28:27,470 - nopcommerceApp -INFO - Edit searched product test Completed
+2020-12-14 20:28:41,552 - nopcommerceApp -INFO - test_IfSearchedProductWasDeletedAfterPressingDeleteButton loaded
+2020-12-14 20:28:41,633 - nopcommerceApp -INFO - username provided
+2020-12-14 20:28:41,717 - nopcommerceApp -INFO - password provided
+2020-12-14 20:28:50,183 - nopcommerceApp -INFO - test_IfSearchedProductWasDeletedAfterPressingDeleteButton passed
+2020-12-14 20:28:50,184 - nopcommerceApp -INFO - test_IfSearchedProductWasDeletedAfterPressingDeleteButton completed
+2020-12-14 20:29:04,523 - nopcommerceApp -INFO - Load test
+2020-12-14 20:29:04,609 - nopcommerceApp -INFO - username provided
+2020-12-14 20:29:04,691 - nopcommerceApp -INFO - password provided
+2020-12-14 20:29:42,197 - nopcommerceApp -INFO - validation started
+2020-12-14 20:29:42,219 - nopcommerceApp -INFO - Delete all the products test Passed
+2020-12-14 20:29:42,220 - nopcommerceApp -INFO - Delete all the products test completed
+2020-12-14 20:29:55,940 - nopcommerceApp -INFO - Load Add Manufacturer Test
+2020-12-14 20:29:56,035 - nopcommerceApp -INFO - username provided
+2020-12-14 20:29:56,117 - nopcommerceApp -INFO - password provided
+2020-12-14 20:30:14,287 - nopcommerceApp -INFO - validation started
+2020-12-14 20:30:14,382 - nopcommerceApp -INFO - Add Manufacturer test Passed
+2020-12-14 20:30:14,383 - nopcommerceApp -INFO - Load Add Manufacturer Test Completed
+2020-12-15 15:41:24,984 - nopcommerceApp -INFO - Prepare Login test
+2020-12-15 15:41:25,056 - nopcommerceApp -INFO - Entered username
+2020-12-15 15:41:25,122 - nopcommerceApp -INFO - Entered password
+2020-12-15 15:41:30,412 - nopcommerceApp -INFO - Login validation started......
+2020-12-15 15:41:30,415 - nopcommerceApp -INFO - Login test passed
+2020-12-15 15:41:30,426 - nopcommerceApp -INFO - Login test Completed
+2020-12-15 15:41:41,883 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-15 15:41:41,946 - nopcommerceApp -INFO - Entered username
+2020-12-15 15:41:42,011 - nopcommerceApp -INFO - Entered password
+2020-12-15 15:41:47,149 - nopcommerceApp -INFO - Positive testing
+2020-12-15 15:41:49,075 - nopcommerceApp -INFO - DDT validation started........
+2020-12-15 15:41:49,075 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-15 15:41:49,077 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-15 15:41:49,077 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-15 15:41:49,139 - nopcommerceApp -INFO - Entered username
+2020-12-15 15:41:49,187 - nopcommerceApp -INFO - Entered password
+2020-12-15 15:41:49,619 - nopcommerceApp -INFO - Negative testing
+2020-12-15 15:41:49,620 - nopcommerceApp -INFO - DDT validation started........
+2020-12-15 15:41:49,620 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-15 15:41:49,621 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-15 15:41:49,622 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-15 15:41:49,676 - nopcommerceApp -INFO - Entered username
+2020-12-15 15:41:49,729 - nopcommerceApp -INFO - Entered password
+2020-12-15 15:41:50,141 - nopcommerceApp -INFO - Negative testing
+2020-12-15 15:41:50,141 - nopcommerceApp -INFO - DDT validation started........
+2020-12-15 15:41:50,142 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-15 15:41:50,142 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-15 15:41:50,142 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-15 15:41:50,224 - nopcommerceApp -INFO - Entered username
+2020-12-15 15:41:50,271 - nopcommerceApp -INFO - Entered password
+2020-12-15 15:41:50,717 - nopcommerceApp -INFO - Negative testing
+2020-12-15 15:41:50,718 - nopcommerceApp -INFO - DDT validation started........
+2020-12-15 15:41:50,718 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-15 15:41:50,718 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-15 15:42:04,973 - nopcommerceApp -INFO - Prepare Add product Test
+2020-12-15 15:42:05,063 - nopcommerceApp -INFO - username provided
+2020-12-15 15:42:05,149 - nopcommerceApp -INFO - password provided
+2020-12-15 15:42:09,119 - nopcommerceApp -INFO - Go to Add product Page
+2020-12-15 15:42:13,240 - nopcommerceApp -INFO - providing product details..........
+2020-12-15 15:42:28,350 - nopcommerceApp -INFO - Add product test Completed
+2020-12-15 15:42:42,192 - nopcommerceApp -INFO - Prepare Search product by name Test
+2020-12-15 15:42:42,286 - nopcommerceApp -INFO - username provided
+2020-12-15 15:42:42,365 - nopcommerceApp -INFO - password provided
+2020-12-15 15:42:46,201 - nopcommerceApp -INFO - go to search product page
+2020-12-15 15:42:47,989 - nopcommerceApp -INFO - validation by name  started.......
+2020-12-15 15:43:03,507 - nopcommerceApp -WARN - Search product by name test Failed
+2020-12-15 15:43:03,878 - nopcommerceApp -INFO - Search product by name test Completed
+2020-12-15 15:43:16,152 - nopcommerceApp -INFO - Prepare Search product by type Test
+2020-12-15 15:43:16,240 - nopcommerceApp -INFO - username provided
+2020-12-15 15:43:16,317 - nopcommerceApp -INFO - password provided
+2020-12-15 15:43:18,570 - nopcommerceApp -INFO - go to search product page
+2020-12-15 15:43:20,375 - nopcommerceApp -INFO - validation by type started.........
+2020-12-15 15:43:21,933 - nopcommerceApp -INFO - Search product by type test Passed
+2020-12-15 15:43:21,933 - nopcommerceApp -INFO - Search product by type test Completed
+2020-12-15 15:43:35,735 - nopcommerceApp -INFO - Load Edit searched product Test
+2020-12-15 15:43:35,829 - nopcommerceApp -INFO - Provide username
+2020-12-15 15:43:35,917 - nopcommerceApp -INFO - Provide password
+2020-12-15 15:44:11,437 - nopcommerceApp -INFO - Edit searched product test Completed
+2020-12-15 15:44:26,403 - nopcommerceApp -INFO - test_IfSearchedProductWasDeletedAfterPressingDeleteButton loaded
+2020-12-15 15:44:26,493 - nopcommerceApp -INFO - username provided
+2020-12-15 15:44:26,577 - nopcommerceApp -INFO - password provided
+2020-12-15 15:45:02,863 - nopcommerceApp -WARN - Element is not presented or already deleted
+2020-12-15 15:45:02,865 - nopcommerceApp -INFO - test_IfSearchedProductWasDeletedAfterPressingDeleteButton completed
+2020-12-15 15:45:18,116 - nopcommerceApp -INFO - Load test
+2020-12-15 15:45:18,212 - nopcommerceApp -INFO - username provided
+2020-12-15 15:45:18,301 - nopcommerceApp -INFO - password provided
+2020-12-15 15:45:36,956 - nopcommerceApp -INFO - validation started
+2020-12-15 15:45:40,440 - nopcommerceApp -INFO - Delete all the products test Passed
+2020-12-15 15:45:40,441 - nopcommerceApp -INFO - Delete all the products test completed
+2020-12-15 15:45:54,728 - nopcommerceApp -INFO - Load Add Manufacturer Test
+2020-12-15 15:45:54,813 - nopcommerceApp -INFO - username provided
+2020-12-15 15:45:54,918 - nopcommerceApp -INFO - password provided
+2020-12-15 15:46:01,526 - nopcommerceApp -INFO - Load Add Manufacturer Test Completed
+2020-12-15 15:50:45,099 - nopcommerceApp -INFO - Prepare Login test
+2020-12-15 15:50:45,174 - nopcommerceApp -INFO - Entered username
+2020-12-15 15:50:45,223 - nopcommerceApp -INFO - Entered password
+2020-12-15 15:50:50,549 - nopcommerceApp -INFO - Login validation started......
+2020-12-15 15:50:50,551 - nopcommerceApp -INFO - Login test passed
+2020-12-15 15:50:50,560 - nopcommerceApp -INFO - Login test Completed
+2020-12-15 15:51:02,908 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-15 15:51:02,968 - nopcommerceApp -INFO - Entered username
+2020-12-15 15:51:03,018 - nopcommerceApp -INFO - Entered password
+2020-12-15 15:51:08,482 - nopcommerceApp -INFO - Positive testing
+2020-12-15 15:51:10,021 - nopcommerceApp -INFO - DDT validation started........
+2020-12-15 15:51:10,021 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-15 15:51:10,022 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-15 15:51:10,023 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-15 15:51:10,088 - nopcommerceApp -INFO - Entered username
+2020-12-15 15:51:10,142 - nopcommerceApp -INFO - Entered password
+2020-12-15 15:51:10,804 - nopcommerceApp -INFO - Negative testing
+2020-12-15 15:51:10,804 - nopcommerceApp -INFO - DDT validation started........
+2020-12-15 15:51:10,804 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-15 15:51:10,805 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-15 15:51:10,805 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-15 15:51:10,892 - nopcommerceApp -INFO - Entered username
+2020-12-15 15:51:10,955 - nopcommerceApp -INFO - Entered password
+2020-12-15 15:51:11,405 - nopcommerceApp -INFO - Negative testing
+2020-12-15 15:51:11,405 - nopcommerceApp -INFO - DDT validation started........
+2020-12-15 15:51:11,406 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-15 15:51:11,406 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-15 15:51:11,407 - nopcommerceApp -INFO - Prepare Data Driven Login test
+2020-12-15 15:51:11,462 - nopcommerceApp -INFO - Entered username
+2020-12-15 15:51:11,511 - nopcommerceApp -INFO - Entered password
+2020-12-15 15:51:11,998 - nopcommerceApp -INFO - Negative testing
+2020-12-15 15:51:11,998 - nopcommerceApp -INFO - DDT validation started........
+2020-12-15 15:51:11,998 - nopcommerceApp -INFO - Data Driven Login Test passed
+2020-12-15 15:51:11,999 - nopcommerceApp -INFO - Data Driven Login  test Completed
+2020-12-15 15:51:25,781 - nopcommerceApp -INFO - Prepare Add product Test
+2020-12-15 15:51:25,873 - nopcommerceApp -INFO - username provided
+2020-12-15 15:51:25,956 - nopcommerceApp -INFO - password provided
+2020-12-15 15:51:29,469 - nopcommerceApp -INFO - Go to Add product Page
+2020-12-15 15:51:33,160 - nopcommerceApp -INFO - providing product details..........
+2020-12-15 15:51:34,082 - nopcommerceApp -INFO - save and update price
+2020-12-15 15:51:37,070 - nopcommerceApp -INFO - validation before price update started.........
+2020-12-15 15:51:37,104 - nopcommerceApp -INFO - Add product(before price update) test Passed
+2020-12-15 15:51:37,104 - nopcommerceApp -INFO - After product added update price
+2020-12-15 15:51:40,100 - nopcommerceApp -INFO - validation after price update started.........
+2020-12-15 15:51:40,127 - nopcommerceApp -INFO - Add product(after price update) test Passed
+2020-12-15 15:51:40,129 - nopcommerceApp -INFO - Add product test Completed
+2020-12-15 15:51:53,859 - nopcommerceApp -INFO - Prepare Search product by name Test
+2020-12-15 15:51:53,955 - nopcommerceApp -INFO - username provided
+2020-12-15 15:51:54,037 - nopcommerceApp -INFO - password provided
+2020-12-15 15:51:58,051 - nopcommerceApp -INFO - go to search product page
+2020-12-15 15:52:00,112 - nopcommerceApp -INFO - validation by name  started.......
+2020-12-15 15:52:00,590 - nopcommerceApp -INFO - test_searchByProductName Passed
+2020-12-15 15:52:00,591 - nopcommerceApp -INFO - Search product by name test Completed
+2020-12-15 15:52:13,074 - nopcommerceApp -INFO - Prepare Search product by type Test
+2020-12-15 15:52:13,157 - nopcommerceApp -INFO - username provided
+2020-12-15 15:52:13,244 - nopcommerceApp -INFO - password provided
+2020-12-15 15:52:15,445 - nopcommerceApp -INFO - go to search product page
+2020-12-15 15:52:17,499 - nopcommerceApp -INFO - validation by type started.........
+2020-12-15 15:52:19,259 - nopcommerceApp -INFO - Search product by type test Passed
+2020-12-15 15:52:19,262 - nopcommerceApp -INFO - Search product by type test Completed
+2020-12-15 15:52:33,565 - nopcommerceApp -INFO - Load Edit searched product Test
+2020-12-15 15:52:33,656 - nopcommerceApp -INFO - Provide username
+2020-12-15 15:52:33,739 - nopcommerceApp -INFO - Provide password
+2020-12-15 15:52:43,930 - nopcommerceApp -INFO - Edit searched product test Passed
+2020-12-15 15:52:43,931 - nopcommerceApp -INFO - Edit searched product test Completed
+2020-12-15 15:52:58,066 - nopcommerceApp -INFO - test_IfSearchedProductWasDeletedAfterPressingDeleteButton loaded
+2020-12-15 15:52:58,151 - nopcommerceApp -INFO - username provided
+2020-12-15 15:52:58,235 - nopcommerceApp -INFO - password provided
+2020-12-15 15:53:05,189 - nopcommerceApp -INFO - test_IfSearchedProductWasDeletedAfterPressingDeleteButton passed
+2020-12-15 15:53:05,190 - nopcommerceApp -INFO - test_IfSearchedProductWasDeletedAfterPressingDeleteButton completed
+2020-12-15 15:53:19,282 - nopcommerceApp -INFO - Load test
+2020-12-15 15:53:19,382 - nopcommerceApp -INFO - username provided
+2020-12-15 15:53:19,458 - nopcommerceApp -INFO - password provided
+2020-12-15 15:53:37,751 - nopcommerceApp -INFO - validation started
+2020-12-15 15:53:38,890 - nopcommerceApp -INFO - Delete all the products test Passed
+2020-12-15 15:53:38,891 - nopcommerceApp -INFO - Delete all the products test completed
+2020-12-15 15:53:53,009 - nopcommerceApp -INFO - Load Add Manufacturer Test
+2020-12-15 15:53:53,093 - nopcommerceApp -INFO - username provided
+2020-12-15 15:53:53,174 - nopcommerceApp -INFO - password provided
+2020-12-15 15:54:10,774 - nopcommerceApp -INFO - validation started
+2020-12-15 15:54:10,863 - nopcommerceApp -INFO - Add Manufacturer test Passed
+2020-12-15 15:54:10,864 - nopcommerceApp -INFO - Load Add Manufacturer Test Completed

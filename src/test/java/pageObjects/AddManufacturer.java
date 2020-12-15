@@ -1,7 +1,14 @@
 package pageObjects;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
@@ -33,7 +40,7 @@ public class AddManufacturer extends BasePage{
 	@CacheLookup
 	WebElement name;
 	
-	@FindBy(how=How.XPATH, using="//input[@type='file']")
+	@FindBy(how=How.XPATH, using="//div[@class='qq-upload-button-selector qq-upload-button']//input[@type='file']")
 	@CacheLookup
 	WebElement uploadImage;
 	
@@ -92,13 +99,6 @@ public class AddManufacturer extends BasePage{
 		this.name.sendKeys(mName);
 	}
 	
-	public void uploadImage(String path)
-	{
-		
-		this.uploadImage.sendKeys(path);
-		
-	}
-	
 	public void pageSizeOptions(String opt)
 	{
 		this.pageSizeOptions.clear();
@@ -136,6 +136,37 @@ public class AddManufacturer extends BasePage{
 	public void clickSaveButton()
 	{
 		this.btnSave.click();
+	}
+	
+	public void loadImage(String imagePath) throws AWTException, InterruptedException
+	{
+		StringSelection select = new StringSelection(imagePath);
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(select, null);
+		
+		Actions action = new Actions(lDriver);
+		
+		action.moveToElement(this.uploadImage).click().perform();
+		
+		//create object of robot class
+		Robot robot = new Robot();
+		Thread.sleep(1000);
+		
+		//Press CTRL+V
+		robot.keyPress(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_V);
+		
+		//Wait
+		Thread.sleep(1000);
+		
+		//Realease CTRL+V
+		robot.keyRelease(KeyEvent.VK_CONTROL);
+		robot.keyRelease(KeyEvent.VK_V);
+		
+		Thread.sleep(1000);
+		
+		//Press Enter
+		robot.keyPress(KeyEvent.VK_ENTER);
+		robot.keyRelease(KeyEvent.VK_ENTER);
 	}
 	
 	
