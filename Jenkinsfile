@@ -19,7 +19,9 @@ pipeline{
              //junit allowEmptyResults: true, testResults: 'target/surefire-reports/*.xml'
             
             //publish test results report
-            step([$class: 'MsTestPublisher', testResultsFile: 'testResults.xml', failOnError: true, keepLongStdio: true])
+            //step([$class: 'MsTestPublisher', testResultsFile: 'testResults.xml', failOnError: true, keepLongStdio: true])
+            
+            mstest testResultsFile: "*.trx", keepLongStdio: true
             
           }
         }
