@@ -7,7 +7,7 @@ pipeline{
     steps {
       // One or more steps need to be included within the steps block.
       
-      withMaven(globalMavenSettingsConfig: 'null', jdk: 'null', maven: 'Maven3', mavenSettingsConfig: 'null') {
+      withMaven(maven: 'Maven3') {
               bat 'mvn clean install'
      }
     }
