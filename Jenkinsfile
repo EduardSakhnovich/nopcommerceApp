@@ -11,17 +11,8 @@ pipeline{
               bat 'mvn clean install'
      }
       
-      stage("Compile and Clean"){
-        
-        steps{
-            bat "mvn clean compile"
-        }
-      }
       
-      stage("Test"){
-        steps{
-          bat "mvn test site"
-        }
+     
         
         post{
           always{
@@ -30,14 +21,10 @@ pipeline{
         }
       }
       
-      stage('Deploy'){
-        steps{
-          sh 'mvn package'
-        }
-      }
+     
       
       
-    }
+    
   }
     
     
