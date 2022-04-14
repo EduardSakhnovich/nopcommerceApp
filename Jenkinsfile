@@ -16,7 +16,11 @@ pipeline{
         
         post{
           always{
-             junit allowEmptyResults: true, testResults: 'target/surefire-reports/*.xml'
+             //junit allowEmptyResults: true, testResults: 'target/surefire-reports/*.xml'
+            
+            //publish test results report
+            step([$class: 'MsTestPublisher', testResultsFile: 'testResults.xml', failOnError: true, keepLongStdio: true])
+            
           }
         }
       }
