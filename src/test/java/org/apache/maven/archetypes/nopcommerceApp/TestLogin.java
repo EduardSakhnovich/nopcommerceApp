@@ -18,29 +18,28 @@ public class TestLogin extends TestBase{
 	public LoginPage loginPage;
 	
   @Test
-  public void test_login() {
+  public void test_login() throws IOException{
 	  
 
 	  
-	  String pageName = driver.getTitle();
+	  String actualTitle = driver.getTitle();
+	  String expectedTitle = "Dashboard / nopCommerce administration";
+	  
 	  logger.info("Login validation started......");
-	  if(pageName.equals("Dashboard / nopCommerce administration"))
+	  
+	  if(!actualTitle.equals(expectedTitle))
 	  {
-		  Assert.assertTrue(true);
-		  logger.info("Login test passed");
-	  }
-	  else
-	  {
-		  try {
-			captureScreen(driver,"test_login");
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		  captureScreen(driver, "test_login");
 		  logger.warn("Login test failed");
-		  Assert.assertTrue(false);
-		  
 	  }
+	  
+	  Assert.assertEquals(
+			  actualTitle,
+			  expectedTitle,
+			  "Unexpected page title after login"
+			  );
+	  
+	  logger.info("Login test passed");
 	  
   }
   
@@ -48,6 +47,14 @@ public class TestLogin extends TestBase{
   public void beforeMethod() {
 	  
 	  logger.info("Prepare Login test");
+	  
+	   System.out.println("CURRENT URL: " + driver.getCurrentUrl());
+	   System.out.println("PAGE TITLE: " + driver.getTitle());
+	   if (driver.getTitle().contains("Just a moment")) {
+		    throw new org.testng.SkipException(
+		        "Login test skipped: Cloudflare challenge blocks login page"
+		    );
+		}
 	  
 	  loginPage = new LoginPage(driver);
 	  loginPage.setUsername(username);

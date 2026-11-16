@@ -11,6 +11,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import java.time.Duration;
 
 public class SearchProduct extends BasePage{
 	
@@ -103,7 +104,7 @@ public class SearchProduct extends BasePage{
 	
 	public void clickLnkProducts()
 	{
-		WebDriverWait wait = new WebDriverWait(lDriver,15);
+		WebDriverWait wait = new WebDriverWait(lDriver,Duration.ofSeconds(15));
 		wait.until(ExpectedConditions.elementToBeClickable(lnkProducts)).click();
 	}
 	
@@ -174,14 +175,14 @@ public class SearchProduct extends BasePage{
 	
 	public void clickConfirmBtn()
 	{
-		WebDriverWait wait = new WebDriverWait(lDriver,15);
+		WebDriverWait wait = new WebDriverWait(lDriver,Duration.ofSeconds(15));
 		wait.until(ExpectedConditions.visibilityOf(btnConfirm)).click();
 	}
 	
 	public void clickEditBtn()
 	{
 		//this.btnEdit.click();
-		WebDriverWait wait = new WebDriverWait(lDriver,15);
+		WebDriverWait wait = new WebDriverWait(lDriver,Duration.ofSeconds(15));
 		wait.until(ExpectedConditions.visibilityOf(btnEdit)).click();
 		
 	}

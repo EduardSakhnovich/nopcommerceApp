@@ -13,6 +13,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import java.time.Duration;
 
 public class AddProduct extends BasePage{
 	
@@ -126,14 +127,14 @@ public class AddProduct extends BasePage{
 	
 	public void clickLnkProducts()
 	{
-		WebDriverWait wait = new WebDriverWait(lDriver,15);
+		WebDriverWait wait = new WebDriverWait(lDriver,Duration.ofSeconds(15));
 		wait.until(ExpectedConditions.elementToBeClickable(lnkProducts)).click();
 	}
 	
 	public void clickAddNewProduct()
 	{
 	
-		WebDriverWait wait = new WebDriverWait(lDriver,15);
+		WebDriverWait wait = new WebDriverWait(lDriver, Duration.ofSeconds(15));
 		wait.until(ExpectedConditions.elementToBeClickable(btnAddNew)).click();
 	}
 	

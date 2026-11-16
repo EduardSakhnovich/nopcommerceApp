@@ -15,6 +15,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import java.time.Duration;
 
 public class AddManufacturer extends BasePage{
 	
@@ -82,13 +83,13 @@ public class AddManufacturer extends BasePage{
 	
 	public void clickLnkManufacturers()
 	{
-		WebDriverWait wait = new WebDriverWait(lDriver,15);
+		WebDriverWait wait = new WebDriverWait(lDriver,Duration.ofSeconds(15));
 		wait.until(ExpectedConditions.elementToBeClickable(this.manufacturers)).click();
 	}
 	
 	public void clickAddNew()
 	{
-		WebDriverWait wait = new WebDriverWait(lDriver,15);
+		WebDriverWait wait = new WebDriverWait(lDriver,Duration.ofSeconds(15));
 		wait.until(ExpectedConditions.elementToBeClickable(this.addNew)).click();
 	}
 	
