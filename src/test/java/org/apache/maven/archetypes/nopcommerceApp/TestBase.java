@@ -13,6 +13,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import java.time.Duration;
+import org.testng.annotations.Optional;
 
 import utilities.ReadConfig;
 public class TestBase {
@@ -22,12 +23,11 @@ public class TestBase {
 	public String username;
 	public String password;
 	public ReadConfig readConfig;
-
 	public static Logger logger;
 	
 	@Parameters("browser")
 	@BeforeClass
-	public void setup(String browser)
+	public void setup(@Optional("chrome") String browser)
 	{
 		readConfig = new ReadConfig();
 		baseUrl = readConfig.getApplicationURL();
@@ -54,13 +54,14 @@ public class TestBase {
 	}
 	
 	
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void tearDown() throws InterruptedException
 	{
 	
 		if(driver != null)
 		{
 			driver.quit();
+			driver = null;
 		}
 	
 	}

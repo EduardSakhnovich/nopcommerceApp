@@ -8,7 +8,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import java.io.IOException;
+import java.time.Duration;
 
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 
@@ -20,24 +22,22 @@ public class TestLogin extends TestBase{
   @Test
   public void test_login() throws IOException{
 	  
-
+	  logger.info("Validating login");
 	  
-	  String actualTitle = driver.getTitle();
-	  String expectedTitle = "Dashboard / nopCommerce administration";
+	  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 	  
-	  logger.info("Login validation started......");
+	  boolean loginSuccessful = wait.until(
+			    d -> d.getCurrentUrl().matches(
+			        "(?i)^https?://localhost:8080/admin/?(?:[?#].*)?$"
+			    )
+			);
 	  
-	  if(!actualTitle.equals(expectedTitle))
+	  if(!loginSuccessful)
 	  {
 		  captureScreen(driver, "test_login");
-		  logger.warn("Login test failed");
 	  }
 	  
-	  Assert.assertEquals(
-			  actualTitle,
-			  expectedTitle,
-			  "Unexpected page title after login"
-			  );
+	  Assert.assertTrue(loginSuccessful, "Login failed: admin dashboard was not opened");
 	  
 	  logger.info("Login test passed");
 	  
@@ -48,20 +48,11 @@ public class TestLogin extends TestBase{
 	  
 	  logger.info("Prepare Login test");
 	  
-	   System.out.println("CURRENT URL: " + driver.getCurrentUrl());
-	   System.out.println("PAGE TITLE: " + driver.getTitle());
-	   if (driver.getTitle().contains("Just a moment")) {
-		    throw new org.testng.SkipException(
-		        "Login test skipped: Cloudflare challenge blocks login page"
-		    );
-		}
-	  
 	  loginPage = new LoginPage(driver);
 	  loginPage.setUsername(username);
-	  logger.info("Entered username");
 	  loginPage.setPassword(password);
-	  logger.info("Entered password");
 	  loginPage.clickSubmit();
+	  logger.info("Login submitted");
 	   
   }
   
