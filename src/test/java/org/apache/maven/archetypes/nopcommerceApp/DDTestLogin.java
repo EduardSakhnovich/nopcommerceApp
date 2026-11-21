@@ -1,44 +1,34 @@
 package org.apache.maven.archetypes.nopcommerceApp;
 
 import org.testng.annotations.Test;
-
 import pageObjects.LoginPage;
-
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
-
-
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-
-
+import java.time.Duration;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
-
 
 public class DDTestLogin extends TestBase{
 	
 	public LoginPage loginPage;
 
-	
   @Test(dataProvider="dp")
   public void ddt_test_login(String data) {
 	  
 	  //get data from json file
-	  
 	  String  users[] = data.split(",");
 	  String username = users[0];
 	  String password = users[1];
 	  String exp = users[2];
-	  
-	  List<String> status = new ArrayList<String>();
 	  
 	  loginPage.setUsername(username);
 	  logger.info("Entered username");
@@ -46,74 +36,36 @@ public class DDTestLogin extends TestBase{
 	  logger.info("Entered password");
 	  loginPage.clickSubmit();
 	  
-	  String actTitle = driver.getTitle();
-	  String expTitle = "Dashboard / nopCommerce administration";
+	  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+
+	  wait.until(ExpectedConditions.or(
+	      ExpectedConditions.urlMatches(
+	          "(?i)^https?://localhost:8080/admin/?(?:[?#].*)?$"
+	      ),
+	      ExpectedConditions.visibilityOfElementLocated(
+	          By.cssSelector(".message-error.validation-summary-errors")
+	      )
+	  ));
 	  
-	  //positive testing
-	  if(actTitle.equals(expTitle))
-	  {
-		  logger.info("Positive testing");
-		  
-		  if(exp.equals("Pass"))
-		  {
-			  loginPage.clickLogout();
-			  status.add("Pass");
-		  }
-		  else if(exp.equals("Fail"))
-		  {
-			  loginPage.clickLogout();
-			  status.add("Fail");
-		  }
-	  }
+	  boolean loginSuccessful = driver.getCurrentUrl().matches(
+			    "(?i)^https?://localhost:8080/admin/?(?:[?#].*)?$"
+			);
+
+	  boolean expectedSuccess = exp.equals("Pass");
 	  
-	  //Negative testing
-	  else if(!actTitle.equals(expTitle))
-	  {
-		  logger.info("Negative testing");
-		  //if we can enter with wrong password
-		  if(exp.equals("Pass"))
-		  {
-			  status.add("Fail");
-		  }
-		  //if we can't enter with wrong password
-		  else if(exp.equals("Fail"))
-		  {
-			  status.add("Pass");
-		  }
-	  }
-	  
-	  logger.info("DDT validation started........");
-	  for(String st : status)
-	  {
-		 // System.out.println(st);
-		  //if negative and/or positive tests are passed
-		  if(!st.equals("Fail"))
-		  {
-			  Assert.assertTrue(true);
-			  logger.info("Data Driven Login Test passed");
-		  }
-		  
-		  //if negative and/or positive tests are failed
-		  else
-		  {
-			  try {
-				captureScreen(driver,"ddt_test_login");
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			  logger.warn("Data Driven Login Test failed");
-			  Assert.assertTrue(false);
-			  
-		  }
-	  }
-	  
+	  Assert.assertEquals(
+			    loginSuccessful,
+			    expectedSuccess,
+			    "Login result does not match expected result"
+			);
   }
-  
   
   @BeforeMethod
   public void beforeMethod() {
 	  logger.info("Prepare Data Driven Login test");
+	  driver.manage().deleteAllCookies();
+	  driver.get("http://localhost:8080/admin");
+	  System.out.println("Current URL: " + driver.getCurrentUrl());
 	  loginPage = new LoginPage(driver);
   }
   
@@ -123,8 +75,6 @@ public class DDTestLogin extends TestBase{
 	  logger.info("Data Driven Login  test Completed");
   }
 
- 
-  
   @DataProvider(name="dp")
   public String[] readJson()  throws IOException, ParseException
   {
